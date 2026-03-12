@@ -1,0 +1,1679 @@
+[
+  {
+    "id": "10ec6dd6-167d-4716-9854-12e155af7a61",
+    "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_5.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_5.pdf",
+    "file_size": 2711542,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "uploaded_at": "2026-02-19T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 196608,
+      "total_debits": 397812,
+      "ending_balance": 198109,
+      "statement_period": "3 months",
+      "average_monthly_balance": 122103
+    }
+  },
+  {
+    "id": "272cd3b1-0d96-4c24-af6a-d6748df8f171",
+    "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_5.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_5.pdf",
+    "file_size": 2238927,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "uploaded_at": "2026-02-11T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 301972,
+      "total_expenses": 226479,
+      "net_income": 75493,
+      "total_assets": 819542,
+      "total_liabilities": 544748,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "1e83eb00-5a18-4717-bd99-db6656b5e011",
+    "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_5.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_5.pdf",
+    "file_size": 4703005,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "uploaded_at": "2026-02-26T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-2567",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "adb07432-1601-404c-975f-f8f5919ed7b1",
+    "application_id": "423c3894-babc-49c0-9553-253df532dfe1",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_6.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_6.pdf",
+    "file_size": 1923881,
+    "mime_type": "application/pdf",
+    "uploaded_by": "423c3894-babc-49c0-9553-253df532dfe1",
+    "uploaded_at": "2026-02-18T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 280439,
+      "total_debits": 139792,
+      "ending_balance": 167452,
+      "statement_period": "3 months",
+      "average_monthly_balance": 97024
+    }
+  },
+  {
+    "id": "dad5f9c7-5748-4d93-bc60-e898cdf783d2",
+    "application_id": "423c3894-babc-49c0-9553-253df532dfe1",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_6.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_6.pdf",
+    "file_size": 743486,
+    "mime_type": "application/pdf",
+    "uploaded_by": "423c3894-babc-49c0-9553-253df532dfe1",
+    "uploaded_at": "2026-02-27T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 650050,
+      "total_expenses": 487537,
+      "net_income": 162513,
+      "total_assets": 1808404,
+      "total_liabilities": 670839,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "42fa8ceb-7507-4a56-899c-60ff233685b9",
+    "application_id": "423c3894-babc-49c0-9553-253df532dfe1",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_6.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_6.pdf",
+    "file_size": 1532610,
+    "mime_type": "application/pdf",
+    "uploaded_by": "423c3894-babc-49c0-9553-253df532dfe1",
+    "uploaded_at": "2026-03-02T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-7445",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "706ae27c-30f1-4b94-807a-44ef083ec1b2",
+    "application_id": "423c3894-babc-49c0-9553-253df532dfe1",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_6.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_6.pdf",
+    "file_size": 2389809,
+    "mime_type": "application/pdf",
+    "uploaded_by": "423c3894-babc-49c0-9553-253df532dfe1",
+    "uploaded_at": "2026-02-10T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Real Estate",
+      "assessed_value": 4286514,
+      "location": "Quezon City",
+      "title_number": "TCT-83566"
+    }
+  },
+  {
+    "id": "371f8fdb-439e-441c-a39a-b2b576a8d725",
+    "application_id": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_7.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_7.pdf",
+    "file_size": 257325,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "uploaded_at": "2026-03-06T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 363838,
+      "total_debits": 108033,
+      "ending_balance": 125546,
+      "statement_period": "3 months",
+      "average_monthly_balance": 151238
+    }
+  },
+  {
+    "id": "1ab0dd8a-bf22-41f8-b4c2-23a647c52a97",
+    "application_id": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_7.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_7.pdf",
+    "file_size": 4593853,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "uploaded_at": "2026-02-21T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 667007,
+      "total_expenses": 500255,
+      "net_income": 166752,
+      "total_assets": 1436547,
+      "total_liabilities": 871441,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "80c78b3a-f9e0-486d-877b-55b53702f658",
+    "application_id": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_7.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_7.pdf",
+    "file_size": 3110479,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "uploaded_at": "2026-03-07T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-3848",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "0e688157-1793-4e73-8820-be5768cde4c4",
+    "application_id": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_7.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_7.pdf",
+    "file_size": 2140458,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "uploaded_at": "2026-02-19T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Equipment",
+      "assessed_value": 3161310,
+      "location": "Quezon City",
+      "title_number": "TCT-98629"
+    }
+  },
+  {
+    "id": "55f5845d-85c2-483d-88ba-a15d12442c89",
+    "application_id": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_8.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_8.pdf",
+    "file_size": 1655144,
+    "mime_type": "application/pdf",
+    "uploaded_by": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "uploaded_at": "2026-03-01T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 122788,
+      "total_debits": 372489,
+      "ending_balance": 95373,
+      "statement_period": "3 months",
+      "average_monthly_balance": 109553
+    }
+  },
+  {
+    "id": "f5d5d42a-6ddd-4584-b502-0898a6c9f6b7",
+    "application_id": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_8.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_8.pdf",
+    "file_size": 1366184,
+    "mime_type": "application/pdf",
+    "uploaded_by": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "uploaded_at": "2026-02-20T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 593848,
+      "total_expenses": 445386,
+      "net_income": 148462,
+      "total_assets": 1516027,
+      "total_liabilities": 746378,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "54c8dd49-f274-4174-8a0a-dc937feb0549",
+    "application_id": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_8.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_8.pdf",
+    "file_size": 1322838,
+    "mime_type": "application/pdf",
+    "uploaded_by": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "uploaded_at": "2026-02-12T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-7181",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "4bc91525-bb12-4294-bab8-f62c4330f22b",
+    "application_id": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_9.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_9.pdf",
+    "file_size": 1233000,
+    "mime_type": "application/pdf",
+    "uploaded_by": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "uploaded_at": "2026-03-11T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 156509,
+      "total_debits": 210002,
+      "ending_balance": 172146,
+      "statement_period": "3 months",
+      "average_monthly_balance": 142457
+    }
+  },
+  {
+    "id": "fef6cc73-6a72-4627-8c50-870e84e55100",
+    "application_id": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_9.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_9.pdf",
+    "file_size": 2557621,
+    "mime_type": "application/pdf",
+    "uploaded_by": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "uploaded_at": "2026-02-12T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 591695,
+      "total_expenses": 443771,
+      "net_income": 147924,
+      "total_assets": 1651985,
+      "total_liabilities": 482725,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "0b338901-81a2-43f9-ab05-3b61aeac43da",
+    "application_id": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_9.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_9.pdf",
+    "file_size": 4344325,
+    "mime_type": "application/pdf",
+    "uploaded_by": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "uploaded_at": "2026-02-13T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-6736",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "6e189af1-8ac3-4735-afca-4b755335228b",
+    "application_id": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_9.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_9.pdf",
+    "file_size": 4252411,
+    "mime_type": "application/pdf",
+    "uploaded_by": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "uploaded_at": "2026-02-10T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Vehicle",
+      "assessed_value": 3349901,
+      "location": "Davao",
+      "title_number": "TCT-49714"
+    }
+  },
+  {
+    "id": "0a9e6952-8038-45d9-9b90-8c48a28eb356",
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_10.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_10.pdf",
+    "file_size": 2546495,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "uploaded_at": "2026-02-22T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 480186,
+      "total_debits": 300126,
+      "ending_balance": 56998,
+      "statement_period": "3 months",
+      "average_monthly_balance": 62140
+    }
+  },
+  {
+    "id": "1833f1ef-1bc9-46ec-a7d0-89e4113a1b77",
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_10.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_10.pdf",
+    "file_size": 4655658,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "uploaded_at": "2026-02-28T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 668298,
+      "total_expenses": 501223,
+      "net_income": 167075,
+      "total_assets": 1462848,
+      "total_liabilities": 956924,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "0b3de977-6bd4-4117-b858-e0f513cc8206",
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_10.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_10.pdf",
+    "file_size": 474085,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "uploaded_at": "2026-02-22T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-9408",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "14d3ec25-5d05-4e79-803c-156ac8c8ecb9",
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_10.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_10.pdf",
+    "file_size": 4766781,
+    "mime_type": "application/pdf",
+    "uploaded_by": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "uploaded_at": "2026-02-15T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Vehicle",
+      "assessed_value": 3158732,
+      "location": "Metro Manila",
+      "title_number": "TCT-17339"
+    }
+  },
+  {
+    "id": "065d9dae-a3d6-4021-acf5-5db02932e083",
+    "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_11.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_11.pdf",
+    "file_size": 2346353,
+    "mime_type": "application/pdf",
+    "uploaded_by": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "uploaded_at": "2026-02-15T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 107616,
+      "total_debits": 368625,
+      "ending_balance": 89940,
+      "statement_period": "3 months",
+      "average_monthly_balance": 88302
+    }
+  },
+  {
+    "id": "ceddeae3-e016-4349-900c-f05d5b3462dc",
+    "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_11.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_11.pdf",
+    "file_size": 817067,
+    "mime_type": "application/pdf",
+    "uploaded_by": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "uploaded_at": "2026-02-18T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 928564,
+      "total_expenses": 696423,
+      "net_income": 232141,
+      "total_assets": 1472315,
+      "total_liabilities": 396778,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "94b61766-e5fe-4ccc-bc12-bfd0b04e66cb",
+    "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_11.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_11.pdf",
+    "file_size": 1089192,
+    "mime_type": "application/pdf",
+    "uploaded_by": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "uploaded_at": "2026-02-10T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-6592",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "4f2b5743-08c6-4ee1-ab32-7dd4c4b489f0",
+    "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_11.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_11.pdf",
+    "file_size": 2334823,
+    "mime_type": "application/pdf",
+    "uploaded_by": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "uploaded_at": "2026-03-09T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Real Estate",
+      "assessed_value": 1682007,
+      "location": "Metro Manila",
+      "title_number": "TCT-66696"
+    }
+  },
+  {
+    "id": "3869b913-de11-4f4c-b7f9-813088f204b5",
+    "application_id": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_12.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_12.pdf",
+    "file_size": 886818,
+    "mime_type": "application/pdf",
+    "uploaded_by": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "uploaded_at": "2026-02-13T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 406704,
+      "total_debits": 152644,
+      "ending_balance": 167810,
+      "statement_period": "3 months",
+      "average_monthly_balance": 123107
+    }
+  },
+  {
+    "id": "0daa8f75-17a5-46d9-8a63-3ad3c63cb8ac",
+    "application_id": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_12.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_12.pdf",
+    "file_size": 1689326,
+    "mime_type": "application/pdf",
+    "uploaded_by": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "uploaded_at": "2026-02-17T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 641987,
+      "total_expenses": 481490,
+      "net_income": 160497,
+      "total_assets": 652031,
+      "total_liabilities": 707262,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "53f76674-7c4f-42ab-8308-8e66dd568476",
+    "application_id": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_12.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_12.pdf",
+    "file_size": 1352116,
+    "mime_type": "application/pdf",
+    "uploaded_by": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "uploaded_at": "2026-02-18T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-2709",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "bc9d81eb-5fa1-4fcf-9cd7-6dfa190bb2f1",
+    "application_id": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_13.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_13.pdf",
+    "file_size": 1219623,
+    "mime_type": "application/pdf",
+    "uploaded_by": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "uploaded_at": "2026-03-03T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 157617,
+      "total_debits": 201511,
+      "ending_balance": 119681,
+      "statement_period": "3 months",
+      "average_monthly_balance": 87245
+    }
+  },
+  {
+    "id": "7ca0c0f2-b1d4-4749-a0ab-b751f8169273",
+    "application_id": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_13.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_13.pdf",
+    "file_size": 4567985,
+    "mime_type": "application/pdf",
+    "uploaded_by": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "uploaded_at": "2026-02-20T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 580196,
+      "total_expenses": 435147,
+      "net_income": 145049,
+      "total_assets": 533862,
+      "total_liabilities": 838746,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "717de0eb-e0c7-40a0-8b87-552c3c2537c6",
+    "application_id": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_13.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_13.pdf",
+    "file_size": 2928562,
+    "mime_type": "application/pdf",
+    "uploaded_by": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "uploaded_at": "2026-02-14T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-1826",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "6f0392ef-dab8-48a1-b0ad-a646831cc314",
+    "application_id": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_13.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_13.pdf",
+    "file_size": 1816417,
+    "mime_type": "application/pdf",
+    "uploaded_by": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "uploaded_at": "2026-03-02T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Equipment",
+      "assessed_value": 1205007,
+      "location": "Davao",
+      "title_number": "TCT-16747"
+    }
+  },
+  {
+    "id": "c52d9a14-454d-4548-9d92-dcc25217e887",
+    "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_14.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_14.pdf",
+    "file_size": 923126,
+    "mime_type": "application/pdf",
+    "uploaded_by": "532315fc-8139-41ce-a264-44a50879f498",
+    "uploaded_at": "2026-03-07T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 290150,
+      "total_debits": 365764,
+      "ending_balance": 66106,
+      "statement_period": "3 months",
+      "average_monthly_balance": 102880
+    }
+  },
+  {
+    "id": "f09f6401-4416-47fe-8e33-1738aad4d31e",
+    "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_14.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_14.pdf",
+    "file_size": 4849334,
+    "mime_type": "application/pdf",
+    "uploaded_by": "532315fc-8139-41ce-a264-44a50879f498",
+    "uploaded_at": "2026-02-15T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 495263,
+      "total_expenses": 371447,
+      "net_income": 123816,
+      "total_assets": 617878,
+      "total_liabilities": 882941,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "b92da2c2-1cdb-41c9-b333-64bdad984a0f",
+    "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_14.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_14.pdf",
+    "file_size": 1012206,
+    "mime_type": "application/pdf",
+    "uploaded_by": "532315fc-8139-41ce-a264-44a50879f498",
+    "uploaded_at": "2026-02-14T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-7125",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "adff3d65-1e8b-4e89-a0cf-9712dc500cc1",
+    "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_14.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_14.pdf",
+    "file_size": 4182898,
+    "mime_type": "application/pdf",
+    "uploaded_by": "532315fc-8139-41ce-a264-44a50879f498",
+    "uploaded_at": "2026-03-01T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Vehicle",
+      "assessed_value": 4948531,
+      "location": "Davao",
+      "title_number": "TCT-64528"
+    }
+  },
+  {
+    "id": "036ae29b-0831-4294-bdc7-bdaa6229a183",
+    "application_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_15.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_15.pdf",
+    "file_size": 1296225,
+    "mime_type": "application/pdf",
+    "uploaded_by": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "uploaded_at": "2026-02-25T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 246461,
+      "total_debits": 199495,
+      "ending_balance": 76524,
+      "statement_period": "3 months",
+      "average_monthly_balance": 156954
+    }
+  },
+  {
+    "id": "47ef848a-5e51-4560-81f0-afd66d554e04",
+    "application_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_15.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_15.pdf",
+    "file_size": 2845194,
+    "mime_type": "application/pdf",
+    "uploaded_by": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "uploaded_at": "2026-03-09T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 576561,
+      "total_expenses": 432420,
+      "net_income": 144141,
+      "total_assets": 1815590,
+      "total_liabilities": 279752,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "b8d8de85-22b7-49a7-aa56-2f6ec68a2105",
+    "application_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_15.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_15.pdf",
+    "file_size": 3718927,
+    "mime_type": "application/pdf",
+    "uploaded_by": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "uploaded_at": "2026-03-07T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-4855",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "885cab7a-f1ca-46ad-819a-cbd3f8937650",
+    "application_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_15.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_15.pdf",
+    "file_size": 2640133,
+    "mime_type": "application/pdf",
+    "uploaded_by": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "uploaded_at": "2026-02-24T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Real Estate",
+      "assessed_value": 1811149,
+      "location": "Davao",
+      "title_number": "TCT-70838"
+    }
+  },
+  {
+    "id": "d2f14e41-e25e-4092-ae64-c999125edaa6",
+    "application_id": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_16.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_16.pdf",
+    "file_size": 3735860,
+    "mime_type": "application/pdf",
+    "uploaded_by": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "uploaded_at": "2026-02-28T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 370392,
+      "total_debits": 246487,
+      "ending_balance": 199696,
+      "statement_period": "3 months",
+      "average_monthly_balance": 122873
+    }
+  },
+  {
+    "id": "4b33c8b9-2fc6-45b0-953e-389e4423b3a9",
+    "application_id": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_16.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_16.pdf",
+    "file_size": 1459104,
+    "mime_type": "application/pdf",
+    "uploaded_by": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "uploaded_at": "2026-03-04T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 513750,
+      "total_expenses": 385312,
+      "net_income": 128438,
+      "total_assets": 693322,
+      "total_liabilities": 525360,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "0de81ac1-d246-4a04-b1bb-4c34018633f9",
+    "application_id": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_16.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_16.pdf",
+    "file_size": 3790463,
+    "mime_type": "application/pdf",
+    "uploaded_by": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "uploaded_at": "2026-02-27T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-6322",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "175fc8f0-fbac-42ac-9eaa-7c0029700655",
+    "application_id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_17.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_17.pdf",
+    "file_size": 4233213,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "uploaded_at": "2026-02-20T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 418689,
+      "total_debits": 150552,
+      "ending_balance": 155870,
+      "statement_period": "3 months",
+      "average_monthly_balance": 88128
+    }
+  },
+  {
+    "id": "34683d75-59c6-4fa1-9046-8832689289ca",
+    "application_id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_17.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_17.pdf",
+    "file_size": 4379785,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "uploaded_at": "2026-02-22T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 788795,
+      "total_expenses": 591596,
+      "net_income": 197199,
+      "total_assets": 557191,
+      "total_liabilities": 387226,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "df98bde7-1926-4f48-8d3c-ff28cb5903ab",
+    "application_id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_17.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_17.pdf",
+    "file_size": 788597,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "uploaded_at": "2026-02-24T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-5389",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "2645d972-7be3-4701-9072-a54e31c4afcc",
+    "application_id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_17.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_17.pdf",
+    "file_size": 4154458,
+    "mime_type": "application/pdf",
+    "uploaded_by": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "uploaded_at": "2026-03-03T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Equipment",
+      "assessed_value": 1377692,
+      "location": "Cebu",
+      "title_number": "TCT-46376"
+    }
+  },
+  {
+    "id": "bfac57c4-5184-4692-b32f-fabb21112c14",
+    "application_id": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_18.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_18.pdf",
+    "file_size": 2457882,
+    "mime_type": "application/pdf",
+    "uploaded_by": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "uploaded_at": "2026-02-28T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 246369,
+      "total_debits": 237433,
+      "ending_balance": 125425,
+      "statement_period": "3 months",
+      "average_monthly_balance": 55342
+    }
+  },
+  {
+    "id": "b77b8544-1cf9-44d9-b734-c925b0bf2c21",
+    "application_id": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_18.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_18.pdf",
+    "file_size": 1790745,
+    "mime_type": "application/pdf",
+    "uploaded_by": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "uploaded_at": "2026-03-11T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 873768,
+      "total_expenses": 655326,
+      "net_income": 218442,
+      "total_assets": 1797263,
+      "total_liabilities": 474072,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "32a175e4-b71b-4759-9d84-d1dea854b2c3",
+    "application_id": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_18.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_18.pdf",
+    "file_size": 3132992,
+    "mime_type": "application/pdf",
+    "uploaded_by": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "uploaded_at": "2026-03-09T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-1615",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "b8f30120-edfe-4732-abe1-9fa07180ca62",
+    "application_id": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_19.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_19.pdf",
+    "file_size": 3950259,
+    "mime_type": "application/pdf",
+    "uploaded_by": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "uploaded_at": "2026-02-27T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 319661,
+      "total_debits": 355659,
+      "ending_balance": 154471,
+      "statement_period": "3 months",
+      "average_monthly_balance": 149031
+    }
+  },
+  {
+    "id": "8a9d5e67-4e97-4d0d-8780-86ad7865aa1b",
+    "application_id": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_19.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_19.pdf",
+    "file_size": 2823333,
+    "mime_type": "application/pdf",
+    "uploaded_by": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "uploaded_at": "2026-03-03T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 336658,
+      "total_expenses": 252493,
+      "net_income": 84165,
+      "total_assets": 835366,
+      "total_liabilities": 492416,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "6dfd095b-639d-4672-a295-26dc85a34e6b",
+    "application_id": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_19.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_19.pdf",
+    "file_size": 2165887,
+    "mime_type": "application/pdf",
+    "uploaded_by": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "uploaded_at": "2026-03-08T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-7489",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "45e529df-697a-4a29-9f13-f4b4c857782b",
+    "application_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_20.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_20.pdf",
+    "file_size": 2194337,
+    "mime_type": "application/pdf",
+    "uploaded_by": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "uploaded_at": "2026-02-10T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 283890,
+      "total_debits": 291720,
+      "ending_balance": 149870,
+      "statement_period": "3 months",
+      "average_monthly_balance": 88368
+    }
+  },
+  {
+    "id": "53c5f776-5797-46a6-b50a-a7812543060d",
+    "application_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_20.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_20.pdf",
+    "file_size": 2063794,
+    "mime_type": "application/pdf",
+    "uploaded_by": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "uploaded_at": "2026-02-10T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 581194,
+      "total_expenses": 435895,
+      "net_income": 145299,
+      "total_assets": 959495,
+      "total_liabilities": 816421,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "90d1fd33-616e-41ed-8637-0ed5aecf4b78",
+    "application_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_20.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_20.pdf",
+    "file_size": 1477722,
+    "mime_type": "application/pdf",
+    "uploaded_by": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "uploaded_at": "2026-03-08T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-4022",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "dec3d4d4-9caa-46b0-b0a3-f59b47104d30",
+    "application_id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_21.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_21.pdf",
+    "file_size": 2819831,
+    "mime_type": "application/pdf",
+    "uploaded_by": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "uploaded_at": "2026-02-26T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 326007,
+      "total_debits": 181674,
+      "ending_balance": 104644,
+      "statement_period": "3 months",
+      "average_monthly_balance": 75521
+    }
+  },
+  {
+    "id": "82c21f5d-721c-4f9f-8576-dcd4c485562c",
+    "application_id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_21.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_21.pdf",
+    "file_size": 860349,
+    "mime_type": "application/pdf",
+    "uploaded_by": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "uploaded_at": "2026-03-03T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 222415,
+      "total_expenses": 166811,
+      "net_income": 55604,
+      "total_assets": 1861992,
+      "total_liabilities": 272645,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "e299de30-99e1-4784-b531-ca859ddc0ed6",
+    "application_id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_21.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_21.pdf",
+    "file_size": 4888451,
+    "mime_type": "application/pdf",
+    "uploaded_by": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "uploaded_at": "2026-02-26T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-9399",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "c4d215ad-d5e4-449c-a4bf-13bd3bf84b0b",
+    "application_id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_21.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_21.pdf",
+    "file_size": 3427803,
+    "mime_type": "application/pdf",
+    "uploaded_by": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "uploaded_at": "2026-02-24T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Equipment",
+      "assessed_value": 4338190,
+      "location": "Quezon City",
+      "title_number": "TCT-69763"
+    }
+  },
+  {
+    "id": "fd27ba3a-39c2-4f8b-97c1-0305a20bdbc3",
+    "application_id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_22.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_22.pdf",
+    "file_size": 1410348,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "uploaded_at": "2026-02-21T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 318612,
+      "total_debits": 213045,
+      "ending_balance": 103718,
+      "statement_period": "3 months",
+      "average_monthly_balance": 79100
+    }
+  },
+  {
+    "id": "03d340ea-0a95-45da-83dc-bfe36f8cb433",
+    "application_id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_22.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_22.pdf",
+    "file_size": 3744657,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "uploaded_at": "2026-03-11T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 617581,
+      "total_expenses": 463185,
+      "net_income": 154396,
+      "total_assets": 1195940,
+      "total_liabilities": 422317,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "6305be69-2644-4a83-bbe5-690965202059",
+    "application_id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_22.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_22.pdf",
+    "file_size": 268666,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "uploaded_at": "2026-03-01T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-1601",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "8d1bdafe-c8a9-4996-8a81-60be7e10d3d2",
+    "application_id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_22.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_22.pdf",
+    "file_size": 3850266,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "uploaded_at": "2026-03-02T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Equipment",
+      "assessed_value": 1964647,
+      "location": "Cebu",
+      "title_number": "TCT-10715"
+    }
+  },
+  {
+    "id": "50380bef-fa87-4763-aeeb-b97e6e281978",
+    "application_id": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_23.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_23.pdf",
+    "file_size": 3725796,
+    "mime_type": "application/pdf",
+    "uploaded_by": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "uploaded_at": "2026-02-28T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 316837,
+      "total_debits": 296605,
+      "ending_balance": 136687,
+      "statement_period": "3 months",
+      "average_monthly_balance": 116066
+    }
+  },
+  {
+    "id": "89296c57-6256-4ec7-9d5d-d06c183743c6",
+    "application_id": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_23.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_23.pdf",
+    "file_size": 3380105,
+    "mime_type": "application/pdf",
+    "uploaded_by": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "uploaded_at": "2026-02-18T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 724145,
+      "total_expenses": 543108,
+      "net_income": 181037,
+      "total_assets": 732052,
+      "total_liabilities": 384660,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "fa871734-cadd-4bfd-abeb-1269b5570763",
+    "application_id": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_23.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_23.pdf",
+    "file_size": 4237200,
+    "mime_type": "application/pdf",
+    "uploaded_by": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "uploaded_at": "2026-02-12T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-2062",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "7e10858f-0a58-4c3f-9a3c-fd9c9495f2b6",
+    "application_id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_24.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_24.pdf",
+    "file_size": 1033930,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "uploaded_at": "2026-02-22T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 462954,
+      "total_debits": 98699,
+      "ending_balance": 197586,
+      "statement_period": "3 months",
+      "average_monthly_balance": 89955
+    }
+  },
+  {
+    "id": "274b6f89-a356-4686-84fa-64fb7aa8f3d0",
+    "application_id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_24.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_24.pdf",
+    "file_size": 4186608,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "uploaded_at": "2026-02-23T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 290479,
+      "total_expenses": 217859,
+      "net_income": 72620,
+      "total_assets": 791317,
+      "total_liabilities": 366895,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "e0637d49-f253-41c3-8039-02d3cfcf22ac",
+    "application_id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_24.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_24.pdf",
+    "file_size": 4758379,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "uploaded_at": "2026-03-06T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-6161",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "f805325a-02a1-45f5-a0c0-0a54ef1e7cf1",
+    "application_id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_24.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_24.pdf",
+    "file_size": 1948949,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "uploaded_at": "2026-03-06T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Equipment",
+      "assessed_value": 2050877,
+      "location": "Cebu",
+      "title_number": "TCT-23187"
+    }
+  },
+  {
+    "id": "d01abc1e-b236-4ff2-b5e1-cf2a166e819f",
+    "application_id": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_25.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_25.pdf",
+    "file_size": 2419460,
+    "mime_type": "application/pdf",
+    "uploaded_by": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "uploaded_at": "2026-02-22T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 461407,
+      "total_debits": 392843,
+      "ending_balance": 105678,
+      "statement_period": "3 months",
+      "average_monthly_balance": 122764
+    }
+  },
+  {
+    "id": "9583080b-8ff3-4ca7-90e4-9dd87b0c090f",
+    "application_id": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_25.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_25.pdf",
+    "file_size": 3889645,
+    "mime_type": "application/pdf",
+    "uploaded_by": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "uploaded_at": "2026-02-27T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 324749,
+      "total_expenses": 243561,
+      "net_income": 81188,
+      "total_assets": 1186780,
+      "total_liabilities": 980190,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "41bbd7ec-4309-4fa5-a059-4b80c512f6e0",
+    "application_id": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_25.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_25.pdf",
+    "file_size": 1984682,
+    "mime_type": "application/pdf",
+    "uploaded_by": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "uploaded_at": "2026-03-11T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-8491",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "03463edf-d825-42e8-8eca-dd6a75635796",
+    "application_id": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_26.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_26.pdf",
+    "file_size": 1333147,
+    "mime_type": "application/pdf",
+    "uploaded_by": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "uploaded_at": "2026-03-02T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 289362,
+      "total_debits": 229519,
+      "ending_balance": 108751,
+      "statement_period": "3 months",
+      "average_monthly_balance": 85845
+    }
+  },
+  {
+    "id": "213a3636-0d9f-4b95-b53b-4a290c2e0228",
+    "application_id": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_26.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_26.pdf",
+    "file_size": 908231,
+    "mime_type": "application/pdf",
+    "uploaded_by": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "uploaded_at": "2026-02-23T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 536388,
+      "total_expenses": 402291,
+      "net_income": 134097,
+      "total_assets": 1209301,
+      "total_liabilities": 394565,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "51b142c3-a990-4332-9a1e-a625a1cbd3ee",
+    "application_id": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_26.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_26.pdf",
+    "file_size": 2859628,
+    "mime_type": "application/pdf",
+    "uploaded_by": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "uploaded_at": "2026-02-23T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-3780",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "6ad02283-8d61-4b51-a500-2f51eedef20a",
+    "application_id": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_27.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_27.pdf",
+    "file_size": 3374814,
+    "mime_type": "application/pdf",
+    "uploaded_by": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "uploaded_at": "2026-03-08T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 481131,
+      "total_debits": 215950,
+      "ending_balance": 135914,
+      "statement_period": "3 months",
+      "average_monthly_balance": 97077
+    }
+  },
+  {
+    "id": "405aa073-6f1c-4bfc-bd61-a00894fab495",
+    "application_id": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_27.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_27.pdf",
+    "file_size": 4333530,
+    "mime_type": "application/pdf",
+    "uploaded_by": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "uploaded_at": "2026-03-07T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 830946,
+      "total_expenses": 623209,
+      "net_income": 207737,
+      "total_assets": 925786,
+      "total_liabilities": 260483,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "6c5521bd-4804-4921-846a-5ed9d2670d2e",
+    "application_id": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_27.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_27.pdf",
+    "file_size": 4226585,
+    "mime_type": "application/pdf",
+    "uploaded_by": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "uploaded_at": "2026-02-27T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-3128",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "acfe4aec-5d77-4620-9c89-05bab79339a8",
+    "application_id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_28.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_28.pdf",
+    "file_size": 1798278,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "uploaded_at": "2026-02-17T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 247448,
+      "total_debits": 126219,
+      "ending_balance": 92801,
+      "statement_period": "3 months",
+      "average_monthly_balance": 137935
+    }
+  },
+  {
+    "id": "2c977e41-99a5-4753-87ff-f051ee8ed4ef",
+    "application_id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_28.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_28.pdf",
+    "file_size": 3384174,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "uploaded_at": "2026-02-21T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 596143,
+      "total_expenses": 447107,
+      "net_income": 149036,
+      "total_assets": 1898536,
+      "total_liabilities": 504413,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "e70df6af-d033-4e4e-b3ec-2f16ecc1abdb",
+    "application_id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_28.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_28.pdf",
+    "file_size": 146000,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "uploaded_at": "2026-03-09T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-2012",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "e708f839-4fe6-4498-98d5-ecd6db4063dc",
+    "application_id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_28.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_28.pdf",
+    "file_size": 3412038,
+    "mime_type": "application/pdf",
+    "uploaded_by": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "uploaded_at": "2026-02-25T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Vehicle",
+      "assessed_value": 2517179,
+      "location": "Davao",
+      "title_number": "TCT-35230"
+    }
+  },
+  {
+    "id": "4b9c7af7-15f1-44b1-a227-951178152dfb",
+    "application_id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "doc_type": "Bank Statement",
+    "filename": "bank statement_29.pdf",
+    "original_filename": "Bank Statement_Document.pdf",
+    "storage_path": "/data/uploads/bank statement_29.pdf",
+    "file_size": 3911366,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "uploaded_at": "2026-02-16T07:50:02.457Z",
+    "extracted_fields": {
+      "total_credits": 437662,
+      "total_debits": 381540,
+      "ending_balance": 174296,
+      "statement_period": "3 months",
+      "average_monthly_balance": 122596
+    }
+  },
+  {
+    "id": "76befea2-d255-4b01-bf76-a1b2ffed2e55",
+    "application_id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "doc_type": "Financial Statement",
+    "filename": "financial statement_29.pdf",
+    "original_filename": "Financial Statement_Document.pdf",
+    "storage_path": "/data/uploads/financial statement_29.pdf",
+    "file_size": 3788584,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "uploaded_at": "2026-02-16T07:50:02.457Z",
+    "extracted_fields": {
+      "total_revenue": 608861,
+      "total_expenses": 456645,
+      "net_income": 152216,
+      "total_assets": 1760301,
+      "total_liabilities": 332169,
+      "period": "Annual"
+    }
+  },
+  {
+    "id": "7af3ae23-ea3d-45d6-add7-544ba46913cb",
+    "application_id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "doc_type": "ID/KYC",
+    "filename": "id_kyc_29.pdf",
+    "original_filename": "ID/KYC_Document.pdf",
+    "storage_path": "/data/uploads/id_kyc_29.pdf",
+    "file_size": 2869998,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "uploaded_at": "2026-02-10T07:50:02.457Z",
+    "extracted_fields": {
+      "id_type": "Government ID",
+      "id_number": "XXXX-XXXX-3020",
+      "name_on_id": "Verified",
+      "expiry_date": "2028-12-31"
+    }
+  },
+  {
+    "id": "c541c36b-4f4b-4173-994f-239675258564",
+    "application_id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "doc_type": "Collateral Proof",
+    "filename": "collateral proof_29.pdf",
+    "original_filename": "Collateral Proof_Document.pdf",
+    "storage_path": "/data/uploads/collateral proof_29.pdf",
+    "file_size": 1282371,
+    "mime_type": "application/pdf",
+    "uploaded_by": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "uploaded_at": "2026-02-14T07:50:02.457Z",
+    "extracted_fields": {
+      "property_type": "Real Estate",
+      "assessed_value": 4893913,
+      "location": "Davao",
+      "title_number": "TCT-38185"
+    }
+  }
+]

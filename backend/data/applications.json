@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "6a2fad1a-39f0-4c98-8776-66505176f5f4",
+    "application_number": "APP-2026-0001",
+    "status": "Draft",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "ABC Trading Corp",
+      "business_type": "Corporation",
+      "industry": "Agriculture",
+      "years_in_business": 4
+    },
+    "loan_request": {
+      "amount": 336076,
+      "tenor_months": 12,
+      "purpose": "Working Capital",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 832117,
+      "monthly_expenses": 566250,
+      "existing_debt_payment": 15886
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 352147
+    },
+    "owner_info": {
+      "name": "Maria Santos",
+      "id_number": "ID-407087",
+      "credit_score": 758
+    },
+    "created_at": "2026-03-02T07:50:02.451Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": null,
+    "completed_at": null
+  },
+  {
+    "id": "c4e50211-965e-4ec5-9009-fc9733e6fb91",
+    "application_number": "APP-2026-0002",
+    "status": "Draft",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Golden Harvest Foods",
+      "business_type": "Corporation",
+      "industry": "Agriculture",
+      "years_in_business": 8
+    },
+    "loan_request": {
+      "amount": 383212,
+      "tenor_months": 24,
+      "purpose": "Working Capital",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 787583,
+      "monthly_expenses": 621257,
+      "existing_debt_payment": 7104
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "estimated_value": 603309
+    },
+    "owner_info": {
+      "name": "Juan Dela Cruz",
+      "id_number": "ID-327725",
+      "credit_score": 584
+    },
+    "created_at": "2026-03-04T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": null,
+    "completed_at": null
+  },
+  {
+    "id": "b68b8288-eb8f-4acc-8c2b-46a3891c2301",
+    "application_number": "APP-2026-0003",
+    "status": "Draft",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Metro Construction Inc",
+      "business_type": "Partnership",
+      "industry": "Retail Trade",
+      "years_in_business": 9
+    },
+    "loan_request": {
+      "amount": 355486,
+      "tenor_months": 36,
+      "purpose": "Working Capital",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 569427,
+      "monthly_expenses": 414221,
+      "existing_debt_payment": 46888
+    },
+    "collateral": {
+      "type": "Other",
+      "estimated_value": 427984
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-704992",
+      "credit_score": 839
+    },
+    "created_at": "2026-01-13T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": null,
+    "completed_at": null
+  },
+  {
+    "id": "70d31c38-e947-4152-937e-c56affb28d79",
+    "application_number": "APP-2026-0004",
+    "status": "Draft",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Pacific Logistics",
+      "business_type": "Sole Proprietorship",
+      "industry": "Services",
+      "years_in_business": 10
+    },
+    "loan_request": {
+      "amount": 394055,
+      "tenor_months": 12,
+      "purpose": "Business Expansion",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 111323,
+      "monthly_expenses": 91787,
+      "existing_debt_payment": 7002
+    },
+    "collateral": {
+      "type": "Other",
+      "estimated_value": 560505
+    },
+    "owner_info": {
+      "name": "Carmen Lopez",
+      "id_number": "ID-922459",
+      "credit_score": 731
+    },
+    "created_at": "2026-03-08T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": null,
+    "completed_at": null
+  },
+  {
+    "id": "3a55d13b-cdbd-4ea0-8936-117f39f57ba7",
+    "application_number": "APP-2026-0005",
+    "status": "Draft",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Sunrise Manufacturing",
+      "business_type": "Corporation",
+      "industry": "Technology",
+      "years_in_business": 7
+    },
+    "loan_request": {
+      "amount": 119236,
+      "tenor_months": 24,
+      "purpose": "Inventory Financing",
+      "repayment_type": "Quarterly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 834871,
+      "monthly_expenses": 551664,
+      "existing_debt_payment": 21203
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 156152
+    },
+    "owner_info": {
+      "name": "Miguel Torres",
+      "id_number": "ID-207195",
+      "credit_score": 595
+    },
+    "created_at": "2026-02-15T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": null,
+    "completed_at": null
+  },
+  {
+    "id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "application_number": "APP-2026-0006",
+    "status": "Submitted",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Elite Services Group",
+      "business_type": "Partnership",
+      "industry": "Services",
+      "years_in_business": 6
+    },
+    "loan_request": {
+      "amount": 413625,
+      "tenor_months": 36,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 671851,
+      "monthly_expenses": 425088,
+      "existing_debt_payment": 36603
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 581028
+    },
+    "owner_info": {
+      "name": "Roberto Fernandez",
+      "id_number": "ID-719651",
+      "credit_score": 707
+    },
+    "created_at": "2026-01-30T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-31T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "423c3894-babc-49c0-9553-253df532dfe1",
+    "application_number": "APP-2026-0007",
+    "status": "Submitted",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Green Valley Farms",
+      "business_type": "Corporation",
+      "industry": "Transportation",
+      "years_in_business": 11
+    },
+    "loan_request": {
+      "amount": 315431,
+      "tenor_months": 60,
+      "purpose": "Equipment Purchase",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 645484,
+      "monthly_expenses": 554541,
+      "existing_debt_payment": 41377
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 375701
+    },
+    "owner_info": {
+      "name": "Pedro Reyes",
+      "id_number": "ID-695830",
+      "credit_score": 672
+    },
+    "created_at": "2026-02-01T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-02T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "8f3727c7-8d9c-4264-a785-bbbf387d8790",
+    "application_number": "APP-2026-0008",
+    "status": "Submitted",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Tech Solutions PH",
+      "business_type": "Partnership",
+      "industry": "Healthcare",
+      "years_in_business": 13
+    },
+    "loan_request": {
+      "amount": 497837,
+      "tenor_months": 36,
+      "purpose": "Property Acquisition",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 50837,
+      "monthly_expenses": 33086,
+      "existing_debt_payment": 18682
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 409769
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-666854",
+      "credit_score": 754
+    },
+    "created_at": "2026-02-14T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-17T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "96fe4e65-ddf6-4f14-983a-8daa1dadeb10",
+    "application_number": "APP-2026-0009",
+    "status": "Submitted",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Prime Retail Store",
+      "business_type": "Sole Proprietorship",
+      "industry": "Construction",
+      "years_in_business": 8
+    },
+    "loan_request": {
+      "amount": 249943,
+      "tenor_months": 48,
+      "purpose": "Business Expansion",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 959415,
+      "monthly_expenses": 662753,
+      "existing_debt_payment": 46743
+    },
+    "collateral": {
+      "type": "Other",
+      "estimated_value": 365870
+    },
+    "owner_info": {
+      "name": "Carmen Lopez",
+      "id_number": "ID-157430",
+      "credit_score": 763
+    },
+    "created_at": "2026-02-23T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-25T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "350a3833-5d2c-49eb-8c5a-81eb1a3068f5",
+    "application_number": "APP-2026-0010",
+    "status": "Submitted",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Quality Auto Parts",
+      "business_type": "Corporation",
+      "industry": "Construction",
+      "years_in_business": 9
+    },
+    "loan_request": {
+      "amount": 413959,
+      "tenor_months": 24,
+      "purpose": "Inventory Financing",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 485538,
+      "monthly_expenses": 422575,
+      "existing_debt_payment": 20439
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 543212
+    },
+    "owner_info": {
+      "name": "Teresa Ramos",
+      "id_number": "ID-136817",
+      "credit_score": 592
+    },
+    "created_at": "2026-02-25T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-26T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "application_number": "APP-2026-0011",
+    "status": "In Review",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Fresh Market Supplies",
+      "business_type": "Partnership",
+      "industry": "Manufacturing",
+      "years_in_business": 11
+    },
+    "loan_request": {
+      "amount": 244330,
+      "tenor_months": 24,
+      "purpose": "Inventory Financing",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 460864,
+      "monthly_expenses": 316225,
+      "existing_debt_payment": 17115
+    },
+    "collateral": {
+      "type": "Receivables",
+      "estimated_value": 215128
+    },
+    "owner_info": {
+      "name": "Jose Mendoza",
+      "id_number": "ID-643476",
+      "credit_score": 606
+    },
+    "created_at": "2026-01-27T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-28T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "application_number": "APP-2026-0012",
+    "status": "In Review",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Urban Development Co",
+      "business_type": "Corporation",
+      "industry": "Food & Beverage",
+      "years_in_business": 12
+    },
+    "loan_request": {
+      "amount": 392616,
+      "tenor_months": 60,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 493456,
+      "monthly_expenses": 405455,
+      "existing_debt_payment": 47781
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 507599
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-956996",
+      "credit_score": 700
+    },
+    "created_at": "2026-02-03T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-05T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "application_number": "APP-2026-0013",
+    "status": "In Review",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Express Delivery Services",
+      "business_type": "Corporation",
+      "industry": "Agriculture",
+      "years_in_business": 14
+    },
+    "loan_request": {
+      "amount": 260922,
+      "tenor_months": 12,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 769644,
+      "monthly_expenses": 615996,
+      "existing_debt_payment": 6608
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 300455
+    },
+    "owner_info": {
+      "name": "Juan Dela Cruz",
+      "id_number": "ID-337975",
+      "credit_score": 845
+    },
+    "created_at": "2026-01-22T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-26T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "application_number": "APP-2026-0014",
+    "status": "In Review",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Modern Bakery Shop",
+      "business_type": "Corporation",
+      "industry": "Retail Trade",
+      "years_in_business": 8
+    },
+    "loan_request": {
+      "amount": 225404,
+      "tenor_months": 36,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 648660,
+      "monthly_expenses": 458391,
+      "existing_debt_payment": 40374
+    },
+    "collateral": {
+      "type": "Receivables",
+      "estimated_value": 359759
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-616742",
+      "credit_score": 644
+    },
+    "created_at": "2026-02-20T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-25T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "532315fc-8139-41ce-a264-44a50879f498",
+    "application_number": "APP-2026-0015",
+    "status": "In Review",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Industrial Equipment Corp",
+      "business_type": "Partnership",
+      "industry": "Transportation",
+      "years_in_business": 10
+    },
+    "loan_request": {
+      "amount": 314268,
+      "tenor_months": 24,
+      "purpose": "Equipment Purchase",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 766070,
+      "monthly_expenses": 559515,
+      "existing_debt_payment": 48115
+    },
+    "collateral": {
+      "type": "Other",
+      "estimated_value": 399895
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-747132",
+      "credit_score": 627
+    },
+    "created_at": "2026-03-02T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-03-07T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "application_number": "APP-2026-0016",
+    "status": "Approved",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Coastal Seafood Trading",
+      "business_type": "Corporation",
+      "industry": "Retail Trade",
+      "years_in_business": 15
+    },
+    "loan_request": {
+      "amount": 341805,
+      "tenor_months": 48,
+      "purpose": "Inventory Financing",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 919501,
+      "monthly_expenses": 770513,
+      "existing_debt_payment": 9145
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 510890
+    },
+    "owner_info": {
+      "name": "Teresa Ramos",
+      "id_number": "ID-157113",
+      "credit_score": 751
+    },
+    "created_at": "2026-02-23T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-24T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "application_number": "APP-2026-0017",
+    "status": "Approved",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Mountain View Resort",
+      "business_type": "Sole Proprietorship",
+      "industry": "Food & Beverage",
+      "years_in_business": 4
+    },
+    "loan_request": {
+      "amount": 448445,
+      "tenor_months": 48,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 564318,
+      "monthly_expenses": 446285,
+      "existing_debt_payment": 49940
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "estimated_value": 635052
+    },
+    "owner_info": {
+      "name": "Miguel Torres",
+      "id_number": "ID-271072",
+      "credit_score": 758
+    },
+    "created_at": "2026-01-12T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-17T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "application_number": "APP-2026-0018",
+    "status": "Approved",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "City Hardware Store",
+      "business_type": "Corporation",
+      "industry": "Construction",
+      "years_in_business": 1
+    },
+    "loan_request": {
+      "amount": 192684,
+      "tenor_months": 18,
+      "purpose": "Business Expansion",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 709446,
+      "monthly_expenses": 617158,
+      "existing_debt_payment": 49446
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 185627
+    },
+    "owner_info": {
+      "name": "Pedro Reyes",
+      "id_number": "ID-231859",
+      "credit_score": 666
+    },
+    "created_at": "2026-01-22T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-24T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "application_number": "APP-2026-0019",
+    "status": "Approved",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Professional Cleaning Services",
+      "business_type": "Corporation",
+      "industry": "Manufacturing",
+      "years_in_business": 14
+    },
+    "loan_request": {
+      "amount": 387343,
+      "tenor_months": 48,
+      "purpose": "Business Expansion",
+      "repayment_type": "Quarterly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 534883,
+      "monthly_expenses": 443931,
+      "existing_debt_payment": 36368
+    },
+    "collateral": {
+      "type": "Inventory",
+      "estimated_value": 472373
+    },
+    "owner_info": {
+      "name": "Pedro Reyes",
+      "id_number": "ID-279178",
+      "credit_score": 731
+    },
+    "created_at": "2026-03-04T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-03-07T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "application_number": "APP-2026-0020",
+    "status": "Approved",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Digital Marketing Agency",
+      "business_type": "Sole Proprietorship",
+      "industry": "Transportation",
+      "years_in_business": 9
+    },
+    "loan_request": {
+      "amount": 206205,
+      "tenor_months": 18,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 117272,
+      "monthly_expenses": 101805,
+      "existing_debt_payment": 33613
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 302804
+    },
+    "owner_info": {
+      "name": "Carmen Lopez",
+      "id_number": "ID-385622",
+      "credit_score": 767
+    },
+    "created_at": "2026-03-02T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-03-06T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "application_number": "APP-2026-0021",
+    "status": "Rejected",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "ABC Trading Corp",
+      "business_type": "Sole Proprietorship",
+      "industry": "Manufacturing",
+      "years_in_business": 2
+    },
+    "loan_request": {
+      "amount": 334534,
+      "tenor_months": 18,
+      "purpose": "Inventory Financing",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 602410,
+      "monthly_expenses": 409327,
+      "existing_debt_payment": 8583
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 416450
+    },
+    "owner_info": {
+      "name": "Carmen Lopez",
+      "id_number": "ID-811036",
+      "credit_score": 602
+    },
+    "created_at": "2026-01-25T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-29T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "application_number": "APP-2026-0022",
+    "status": "Rejected",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Golden Harvest Foods",
+      "business_type": "Partnership",
+      "industry": "Manufacturing",
+      "years_in_business": 4
+    },
+    "loan_request": {
+      "amount": 199266,
+      "tenor_months": 12,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 967698,
+      "monthly_expenses": 753576,
+      "existing_debt_payment": 34100
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 218855
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-557861",
+      "credit_score": 699
+    },
+    "created_at": "2026-01-19T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-20T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "application_number": "APP-2026-0023",
+    "status": "Rejected",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Metro Construction Inc",
+      "business_type": "Sole Proprietorship",
+      "industry": "Construction",
+      "years_in_business": 11
+    },
+    "loan_request": {
+      "amount": 453473,
+      "tenor_months": 24,
+      "purpose": "Working Capital",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 572991,
+      "monthly_expenses": 462977,
+      "existing_debt_payment": 10531
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "estimated_value": 439860
+    },
+    "owner_info": {
+      "name": "Miguel Torres",
+      "id_number": "ID-203252",
+      "credit_score": 714
+    },
+    "created_at": "2026-01-21T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-25T07:50:02.452Z",
+    "completed_at": null
+  },
+  {
+    "id": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "application_number": "APP-2026-0024",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Pacific Logistics",
+      "business_type": "Partnership",
+      "industry": "Transportation",
+      "years_in_business": 11
+    },
+    "loan_request": {
+      "amount": 210655,
+      "tenor_months": 60,
+      "purpose": "Business Expansion",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 410750,
+      "monthly_expenses": 352521,
+      "existing_debt_payment": 29952
+    },
+    "collateral": {
+      "type": "Receivables",
+      "estimated_value": 211419
+    },
+    "owner_info": {
+      "name": "Juan Dela Cruz",
+      "id_number": "ID-841672",
+      "credit_score": 804
+    },
+    "created_at": "2026-02-15T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-18T07:50:02.452Z",
+    "completed_at": "2026-02-28T07:50:02.452Z"
+  },
+  {
+    "id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "application_number": "APP-2026-0025",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Sunrise Manufacturing",
+      "business_type": "Corporation",
+      "industry": "Technology",
+      "years_in_business": 15
+    },
+    "loan_request": {
+      "amount": 334399,
+      "tenor_months": 18,
+      "purpose": "Business Expansion",
+      "repayment_type": "Quarterly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 753954,
+      "monthly_expenses": 527175,
+      "existing_debt_payment": 21985
+    },
+    "collateral": {
+      "type": "Receivables",
+      "estimated_value": 463084
+    },
+    "owner_info": {
+      "name": "Jose Mendoza",
+      "id_number": "ID-937057",
+      "credit_score": 760
+    },
+    "created_at": "2026-01-18T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-23T07:50:02.452Z",
+    "completed_at": "2026-02-07T07:50:02.452Z"
+  },
+  {
+    "id": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "application_number": "APP-2026-0026",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Elite Services Group",
+      "business_type": "Partnership",
+      "industry": "Wholesale Trade",
+      "years_in_business": 14
+    },
+    "loan_request": {
+      "amount": 111468,
+      "tenor_months": 36,
+      "purpose": "Business Expansion",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 620359,
+      "monthly_expenses": 534417,
+      "existing_debt_payment": 9861
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "estimated_value": 117711
+    },
+    "owner_info": {
+      "name": "Jose Mendoza",
+      "id_number": "ID-906934",
+      "credit_score": 789
+    },
+    "created_at": "2026-02-08T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-02-10T07:50:02.452Z",
+    "completed_at": "2026-02-25T07:50:02.452Z"
+  },
+  {
+    "id": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "application_number": "APP-2026-0027",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Green Valley Farms",
+      "business_type": "Corporation",
+      "industry": "Food & Beverage",
+      "years_in_business": 2
+    },
+    "loan_request": {
+      "amount": 89355,
+      "tenor_months": 24,
+      "purpose": "Equipment Purchase",
+      "repayment_type": "Quarterly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 137049,
+      "monthly_expenses": 109842,
+      "existing_debt_payment": 46489
+    },
+    "collateral": {
+      "type": "Other",
+      "estimated_value": 87306
+    },
+    "owner_info": {
+      "name": "Maria Santos",
+      "id_number": "ID-537715",
+      "credit_score": 752
+    },
+    "created_at": "2026-01-26T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-31T07:50:02.452Z",
+    "completed_at": "2026-02-09T07:50:02.452Z"
+  },
+  {
+    "id": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "application_number": "APP-2026-0028",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Tech Solutions PH",
+      "business_type": "Corporation",
+      "industry": "Food & Beverage",
+      "years_in_business": 15
+    },
+    "loan_request": {
+      "amount": 158733,
+      "tenor_months": 18,
+      "purpose": "Working Capital",
+      "repayment_type": "Bullet"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 451083,
+      "monthly_expenses": 345269,
+      "existing_debt_payment": 49206
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "estimated_value": 204729
+    },
+    "owner_info": {
+      "name": "Carmen Lopez",
+      "id_number": "ID-914211",
+      "credit_score": 823
+    },
+    "created_at": "2026-01-12T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-13T07:50:02.452Z",
+    "completed_at": "2026-02-05T07:50:02.452Z"
+  },
+  {
+    "id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "application_number": "APP-2026-0029",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Prime Retail Store",
+      "business_type": "Sole Proprietorship",
+      "industry": "Services",
+      "years_in_business": 1
+    },
+    "loan_request": {
+      "amount": 369038,
+      "tenor_months": 18,
+      "purpose": "Debt Consolidation",
+      "repayment_type": "Quarterly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 763010,
+      "monthly_expenses": 667441,
+      "existing_debt_payment": 20133
+    },
+    "collateral": {
+      "type": "Equipment",
+      "estimated_value": 511702
+    },
+    "owner_info": {
+      "name": "Pedro Reyes",
+      "id_number": "ID-596162",
+      "credit_score": 743
+    },
+    "created_at": "2026-03-11T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-03-14T07:50:02.452Z",
+    "completed_at": "2026-04-09T07:50:02.452Z"
+  },
+  {
+    "id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "application_number": "APP-2026-0030",
+    "status": "Completed",
+    "owner_user_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "applicant": {
+      "legal_name": "Quality Auto Parts",
+      "business_type": "Sole Proprietorship",
+      "industry": "Transportation",
+      "years_in_business": 8
+    },
+    "loan_request": {
+      "amount": 80139,
+      "tenor_months": 24,
+      "purpose": "Working Capital",
+      "repayment_type": "Monthly"
+    },
+    "financial_snapshot": {
+      "monthly_revenue": 870356,
+      "monthly_expenses": 635665,
+      "existing_debt_payment": 29638
+    },
+    "collateral": {
+      "type": "Real Estate",
+      "estimated_value": 122476
+    },
+    "owner_info": {
+      "name": "Ana Garcia",
+      "id_number": "ID-185164",
+      "credit_score": 663
+    },
+    "created_at": "2026-01-26T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z",
+    "submitted_at": "2026-01-31T07:50:02.452Z",
+    "completed_at": "2026-02-12T07:50:02.452Z"
+  }
+]

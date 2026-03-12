@@ -1,0 +1,368 @@
+[
+  {
+    "id": "e0d78277-f38f-41c5-9488-1dd86dca6939",
+    "application_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-02-24T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "ea375635-53f9-4b70-af9f-e607de38244b",
+    "application_id": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-01-17T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "cf02647b-0793-47d0-bcb9-71198b8a90f8",
+    "application_id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-01-24T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "123fb7bc-c24b-41e9-adb8-e191361c4b26",
+    "application_id": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-03-07T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "f0775134-591a-4f06-92d4-abf4b0ab9ebf",
+    "application_id": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-03-06T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "642a3ca0-d013-41d3-99bb-1156b4be96db",
+    "application_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Reject",
+    "recommendation_notes": "Does not meet minimum credit criteria",
+    "recommended_at": "2026-01-29T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Rejected",
+    "conditions": [],
+    "rejection_reason": "Insufficient credit score and collateral coverage",
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "13360168-bbbe-454e-90e4-850f8e4854a9",
+    "application_id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Reject",
+    "recommendation_notes": "Does not meet minimum credit criteria",
+    "recommended_at": "2026-01-20T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Rejected",
+    "conditions": [],
+    "rejection_reason": "Insufficient credit score and collateral coverage",
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "6852684c-18fd-491d-af4a-66ccd52c7868",
+    "application_id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Reject",
+    "recommendation_notes": "Does not meet minimum credit criteria",
+    "recommended_at": "2026-01-25T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Rejected",
+    "conditions": [],
+    "rejection_reason": "Insufficient credit score and collateral coverage",
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "20d9bb38-1de9-4d31-ace4-e36942f1247a",
+    "application_id": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-02-18T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "0c819584-1d06-4a72-a7e3-2bd5ff63052f",
+    "application_id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-01-23T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "56d5ae6b-abf4-4817-8f74-469a99ea79b3",
+    "application_id": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-02-10T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "282531ff-5d1c-4a84-a90e-d856cfe33216",
+    "application_id": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-01-31T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "093f0598-7193-411c-a5b6-a660e34d76a0",
+    "application_id": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-01-13T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "65f719fb-ea5f-4d8c-a69c-00fb2328260e",
+    "application_id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-03-14T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  },
+  {
+    "id": "53c32fc8-33df-4c00-abf8-6654b1c4fdad",
+    "application_id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "Application meets all policy requirements",
+    "recommended_at": "2026-01-31T07:50:02.452Z",
+    "approver_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "final_decision": "Approved",
+    "conditions": [
+      {
+        "condition": "Maintain minimum DSCR of 1.2",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Submit quarterly financial statements",
+        "type": "Post-disbursement"
+      },
+      {
+        "condition": "Insurance coverage on collateral",
+        "type": "Pre-disbursement"
+      }
+    ],
+    "rejection_reason": null,
+    "decided_at": "2026-03-12T07:50:02.452Z",
+    "is_final": true
+  }
+]

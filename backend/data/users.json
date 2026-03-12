@@ -1,0 +1,38 @@
+[
+  {
+    "id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "username": "rm1",
+    "password": "$2a$10$Hg9DMt1nivTeYqWRUDzTD.d/BfBu4qS3TY5vAtqHCwt3lRS/y5CMS",
+    "name": "Maria Santos",
+    "role": "RM",
+    "email": "maria.santos@bank.ph",
+    "created_at": "2026-03-12T07:25:36.399Z"
+  },
+  {
+    "id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "username": "analyst1",
+    "password": "$2a$10$.1shEGQidMlN3drqAE1FJuGM11icv6kAaBhJdVhgClhtKn1fTq68.",
+    "name": "Juan Dela Cruz",
+    "role": "Credit Analyst",
+    "email": "juan.delacruz@bank.ph",
+    "created_at": "2026-03-12T07:25:36.470Z"
+  },
+  {
+    "id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "username": "approver1",
+    "password": "$2a$10$8v2HJ/72MFcVonFrZm.queGutaVN1eY1ShCWSTzSuMvdssADXPfae",
+    "name": "Ana Reyes",
+    "role": "Approver",
+    "email": "ana.reyes@bank.ph",
+    "created_at": "2026-03-12T07:25:36.540Z"
+  },
+  {
+    "id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "username": "admin",
+    "password": "$2a$10$HBOZuKQmHeCZ.ygdXwgfp.tNVIvhKQ03PUiF.29nCPZtfgT2wuHna",
+    "name": "System Admin",
+    "role": "Admin",
+    "email": "admin@bank.ph",
+    "created_at": "2026-03-12T07:25:36.618Z"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "thresholds": {
+    "minDSCR": 1.2,
+    "minCollateralCoverage": 120,
+    "maxLoanAmount": 300000,
+    "minYearsInBusiness": 3,
+    "minCreditScore": 650
+  },
+  "riskWeights": {
+    "dscr": 0.3,
+    "creditScore": 0.25,
+    "yearsInBusiness": 0.2,
+    "collateralCoverage": 0.25
+  },
+  "requiredDocuments": [
+    "Bank Statement",
+    "Financial Statement",
+    "ID/KYC",
+    "Collateral Proof"
+  ],
+  "standardConditions": [
+    {
+      "condition": "Maintain minimum DSCR of 1.2 throughout loan tenor",
+      "type": "Post-disbursement"
+    },
+    {
+      "condition": "Submit quarterly financial statements",
+      "type": "Post-disbursement"
+    },
+    {
+      "condition": "Insurance coverage on collateral",
+      "type": "Pre-disbursement"
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "b4e7b07d-d8f3-4666-81dd-b3fc4d9aea9d",
+    "timestamp": "2026-03-12T08:02:30.846Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "ed2cf76b-55ba-4ac3-9f72-b5ea5023fc8f",
+    "timestamp": "2026-03-12T08:02:59.376Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "1cc7b196-6940-4c7f-9c2f-b1b242d8d2d1",
+    "timestamp": "2026-03-12T08:27:26.676Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "b3c5fce3-dac6-4ed9-aa6f-6cd62ba8944c",
+    "timestamp": "2026-03-12T08:41:54.106Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "6eb3faf9-e99d-4678-ac4a-98774a505923",
+    "timestamp": "2026-03-12T08:51:04.865Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "423bf053-b4dd-4141-9c16-9a1ea423ca0a",
+    "timestamp": "2026-03-12T08:59:27.065Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  }
+]

@@ -1,0 +1,362 @@
+[
+  {
+    "id": "a0234183-f5e4-4770-9b46-c18f9bdc042e",
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "dscr": 5.3,
+    "net_cashflow": 144639,
+    "collateral_coverage": 88.05,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-28T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "4e5cce30-4fb3-4a49-a438-df76a23f8402",
+    "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "dscr": 1.62,
+    "net_cashflow": 88001,
+    "collateral_coverage": 129.29,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-02-05T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "abe17db6-4ecb-4735-845c-2788a8d96bd3",
+    "application_id": "4b1e5c13-0ee4-45f5-a3b3-9a382c24cc7a",
+    "dscr": 5.42,
+    "net_cashflow": 153648,
+    "collateral_coverage": 115.15,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-26T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "9f21f131-02f2-4a55-a1f1-9ebfbb9213d2",
+    "application_id": "80f43129-af2b-47ae-9abd-1424cb22a9c5",
+    "dscr": 4.08,
+    "net_cashflow": 190269,
+    "collateral_coverage": 159.61,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-02-25T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "2fc3a9d8-b605-4a16-84b0-e37fb02d86b0",
+    "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "dscr": 3.37,
+    "net_cashflow": 206555,
+    "collateral_coverage": 127.25,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-03-07T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "0842bd1e-100d-482a-976f-aa9ca865010c",
+    "application_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "dscr": 9.16,
+    "net_cashflow": 148988,
+    "collateral_coverage": 149.47,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-02-24T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "d2f95950-4ef6-461c-8fd4-90b7032bc814",
+    "application_id": "d349e1c4-1cf0-47bb-b745-c620566f05e4",
+    "dscr": 1.99,
+    "net_cashflow": 118033,
+    "collateral_coverage": 141.61,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-17T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "7b74470a-12ea-4b72-bdec-16a21c98ccd8",
+    "application_id": "8a93bf98-265d-41f4-ac06-4905948fcca4",
+    "dscr": 1.53,
+    "net_cashflow": 92288,
+    "collateral_coverage": 96.34,
+    "risk_score": 80,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-24T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "ca5e7435-a173-44b1-9d6e-d998d00ab9c0",
+    "application_id": "90c425ac-c3e9-45ce-add4-f90c0829b0e1",
+    "dscr": 2.05,
+    "net_cashflow": 90952,
+    "collateral_coverage": 121.95,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-03-07T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "4e1f394c-b23b-41eb-a8b4-7111009f9901",
+    "application_id": "63f0968c-22db-4a5d-acf8-dfd87aa139eb",
+    "dscr": 0.34,
+    "net_cashflow": 15467,
+    "collateral_coverage": 146.85,
+    "risk_score": 80,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-03-06T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "b91c9c96-1688-4283-82ad-7d67b116283a",
+    "application_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "dscr": 7.11,
+    "net_cashflow": 193083,
+    "collateral_coverage": 124.49,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-29T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "8cb01264-058c-4588-b610-152dddb092f7",
+    "application_id": "44288a99-ff20-49d3-b129-acc3a9ab1869",
+    "dscr": 4.22,
+    "net_cashflow": 214122,
+    "collateral_coverage": 109.83,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-20T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "ac807d50-d2df-4dcd-8fdc-7b0c80459c05",
+    "application_id": "a49293ec-925a-422f-a76a-7fe7ca410710",
+    "dscr": 3.74,
+    "net_cashflow": 110014,
+    "collateral_coverage": 97,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-25T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "753407a0-e83a-4bc9-a174-be2e71958727",
+    "application_id": "dded1e6f-2cf5-4e61-910f-8901735dab8c",
+    "dscr": 1.74,
+    "net_cashflow": 58229,
+    "collateral_coverage": 100.36,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-02-18T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "6245567a-201b-4bfd-84cc-0c7e18770e78",
+    "application_id": "6765aafc-2b68-4f3e-9458-84d7604918ad",
+    "dscr": 5.59,
+    "net_cashflow": 226779,
+    "collateral_coverage": 138.48,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-23T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "98a1cedd-740e-4725-b3f2-f2e9560bc117",
+    "application_id": "7c3aaf1f-b780-44e5-9ff5-6172ef7822c2",
+    "dscr": 6.63,
+    "net_cashflow": 85942,
+    "collateral_coverage": 105.6,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-02-10T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "f19abfec-dc45-44cd-88f6-b6aae5e14a74",
+    "application_id": "1daf3a0c-388f-4cec-8d4a-deb301b71e65",
+    "dscr": 0.54,
+    "net_cashflow": 27207,
+    "collateral_coverage": 97.71,
+    "risk_score": 60,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-31T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "c4e6e581-66f5-4ab1-b34d-9d0776c70eea",
+    "application_id": "2e6ba367-4397-4489-8d63-9799bf3e2851",
+    "dscr": 1.82,
+    "net_cashflow": 105814,
+    "collateral_coverage": 128.98,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-13T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "3757d778-ec4b-47c4-8325-926c5aeab26d",
+    "application_id": "6fca222a-c51e-4d4e-b8ce-2f92ec768ce2",
+    "dscr": 2.35,
+    "net_cashflow": 95569,
+    "collateral_coverage": 138.66,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-03-14T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "5ff8b2db-ca81-479c-b0c8-b7b7b8a548c1",
+    "application_id": "a9971a14-4afb-4407-8a0c-8829e294e258",
+    "dscr": 7.12,
+    "net_cashflow": 234691,
+    "collateral_coverage": 152.83,
+    "risk_score": 100,
+    "flags": [],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "Auto-generated analysis",
+    "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "created_at": "2026-01-31T07:50:02.452Z",
+    "updated_at": "2026-03-12T07:50:02.452Z"
+  }
+]
