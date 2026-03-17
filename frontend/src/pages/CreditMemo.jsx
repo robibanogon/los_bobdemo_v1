@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useToast } from '../context/ToastContext';
-import api from '../services/api';
+import { memoAPI } from '../services/api';
 
 const CreditMemo = () => {
   const { id } = useParams();
@@ -18,7 +18,7 @@ const CreditMemo = () => {
   const loadMemo = async () => {
     try {
       setLoading(true);
-      const response = await api.get(`/applications/${id}/memo`);
+      const response = await memoAPI.generate(id);
       setMemoHtml(response.data.html);
     } catch (err) {
       showError('Failed to load credit memo');
@@ -31,7 +31,7 @@ const CreditMemo = () => {
   const handleGenerate = async () => {
     try {
       setGenerating(true);
-      const response = await api.post(`/applications/${id}/memo/generate`);
+      const response = await memoAPI.generate(id);
       setMemoHtml(response.data.html);
       success('Credit memo generated successfully');
     } catch (err) {

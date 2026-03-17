@@ -55,7 +55,7 @@ export const applicationsAPI = {
   updateStatus: (id, status) => api.post(`/applications/${id}/status`, { status }),
   complete: (id) => api.post(`/applications/${id}/complete`),
   getStatistics: () => api.get('/applications/statistics'),
-  generateMemo: (id) => api.post(`/applications/${id}/memo/generate`),
+  generateMemo: (id) => api.get(`/applications/${id}/memo`),
 };
 
 // Documents API
