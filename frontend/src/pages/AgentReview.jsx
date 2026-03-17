@@ -18,14 +18,38 @@ const AgentReview = () => {
   const loadData = async () => {
     try {
       setLoading(true);
-      const [appRes, reviewRes] = await Promise.all([
-        api.get(`/applications/${id}`),
-        api.get(`/applications/${id}/agent-review`)
-      ]);
+      // Load application first
+      const appRes = await api.get(`/applications/${id}`);
       setApplication(appRes.data);
-      setReview(reviewRes.data);
+      
+      // Try to load review, but don't fail if it doesn't exist
+      try {
+        const reviewRes = await api.get(`/applications/${id}/agent-review`);
+        setReview(reviewRes.data);
+      } catch (reviewErr) {
+        // Review doesn't exist yet - this is okay
+        if (reviewErr.response?.status === 404) {
+          setReview(null);
+        } else {
+          throw reviewErr;
+        }
+      }
     } catch (err) {
-      showError('Failed to load agent review');
+      showError('Failed to load application data');
+      console.error(err);
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleRunReview = async () => {
+    try {
+      setLoading(true);
+      await api.post(`/applications/${id}/agent-review`);
+      success('Agent review completed successfully');
+      await loadData();
+    } catch (err) {
+      showError('Failed to run agent review');
       console.error(err);
     } finally {
       setLoading(false);
@@ -58,16 +82,46 @@ const AgentReview = () => {
     );
   }
 
-  if (!application || !review) {
+  if (!application) {
     return (
       <div className="card text-center">
-        <h2>Agent review not found</h2>
-        <p style={{ color: '#64748b', marginTop: '10px' }}>
-          The agent review may not have been run yet for this application.
-        </p>
-        <button onClick={() => navigate(`/applications/${id}`)} className="btn btn-primary mt-3">
-          Back to Application
+        <h2>Application not found</h2>
+        <button onClick={() => navigate('/applications')} className="btn btn-primary mt-3">
+          Back to Applications
         </button>
+      </div>
+    );
+  }
+
+  if (!review) {
+    return (
+      <div style={{ padding: '20px', maxWidth: '800px', margin: '0 auto' }}>
+        <div className="card text-center">
+          <div style={{ padding: '40px' }}>
+            <div style={{ fontSize: '48px', marginBottom: '20px' }}>🔍</div>
+            <h2 style={{ marginBottom: '15px' }}>No Agent Review Available</h2>
+            <p style={{ color: '#64748b', marginBottom: '30px', fontSize: '16px' }}>
+              The agent review has not been run yet for this application.
+              <br />
+              Click the button below to run the automated review.
+            </p>
+            <div style={{ display: 'flex', gap: '10px', justifyContent: 'center' }}>
+              <button
+                onClick={handleRunReview}
+                className="btn btn-primary"
+                disabled={loading}
+              >
+                {loading ? 'Running Review...' : '▶ Run Agent Review'}
+              </button>
+              <button
+                onClick={() => navigate(`/applications/${id}`)}
+                className="btn btn-outline"
+              >
+                Back to Application
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
@@ -95,7 +149,7 @@ const AgentReview = () => {
         background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
         color: 'white'
       }}>
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '20px' }}>
           <div>
             <h2 style={{ fontSize: '18px', fontWeight: '600', marginBottom: '10px', opacity: 0.9 }}>
               Recommended Decision
@@ -119,6 +173,23 @@ const AgentReview = () => {
             </div>
           </div>
         </div>
+        
+        {/* Recommendation Reason */}
+        {review.recommendation_reason && (
+          <div style={{
+            backgroundColor: 'rgba(255, 255, 255, 0.15)',
+            padding: '15px',
+            borderRadius: '6px',
+            borderLeft: '4px solid rgba(255, 255, 255, 0.5)'
+          }}>
+            <div style={{ fontSize: '14px', fontWeight: '600', marginBottom: '8px', opacity: 0.9 }}>
+              📋 Reason for Decision
+            </div>
+            <div style={{ fontSize: '15px', lineHeight: '1.6', opacity: 0.95 }}>
+              {review.recommendation_reason}
+            </div>
+          </div>
+        )}
       </div>
 
       {/* Extracted Fields */}
@@ -128,19 +199,42 @@ const AgentReview = () => {
             Extracted Key Fields
           </h2>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '15px' }}>
-            {Object.entries(review.extracted_fields).map(([key, value]) => (
-              <div key={key} style={{
-                padding: '12px',
+            {Object.entries(review.extracted_fields).map(([docType, fields]) => (
+              <div key={docType} style={{
+                padding: '15px',
                 backgroundColor: '#f8fafc',
-                borderRadius: '4px',
+                borderRadius: '6px',
                 border: '1px solid #e2e8f0'
               }}>
-                <div style={{ fontSize: '12px', color: '#64748b', marginBottom: '4px', textTransform: 'uppercase' }}>
-                  {key.replace(/_/g, ' ')}
+                <div style={{
+                  fontSize: '13px',
+                  color: '#64748b',
+                  marginBottom: '12px',
+                  textTransform: 'uppercase',
+                  fontWeight: '600',
+                  borderBottom: '2px solid #e2e8f0',
+                  paddingBottom: '8px'
+                }}>
+                  {docType.replace(/_/g, ' ')}
                 </div>
-                <div style={{ fontSize: '16px', fontWeight: '600' }}>
-                  {typeof value === 'number' ? value.toLocaleString() : value}
-                </div>
+                {typeof fields === 'object' && fields !== null ? (
+                  <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
+                    {Object.entries(fields).map(([fieldKey, fieldValue]) => (
+                      <div key={fieldKey} style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+                        <span style={{ fontSize: '11px', color: '#94a3b8', textTransform: 'capitalize' }}>
+                          {fieldKey.replace(/_/g, ' ')}
+                        </span>
+                        <span style={{ fontSize: '14px', fontWeight: '500', color: '#1e293b' }}>
+                          {typeof fieldValue === 'number' ? fieldValue.toLocaleString() : fieldValue}
+                        </span>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div style={{ fontSize: '14px', fontWeight: '500' }}>
+                    {typeof fields === 'number' ? fields.toLocaleString() : fields}
+                  </div>
+                )}
               </div>
             ))}
           </div>

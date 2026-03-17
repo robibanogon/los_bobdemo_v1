@@ -364,5 +364,19 @@
     "rejection_reason": null,
     "decided_at": "2026-03-12T07:50:02.452Z",
     "is_final": true
+  },
+  {
+    "id": "60885777-e3da-46a0-9953-f2d00bdc4c63",
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "recommended_decision": "Approve",
+    "recommendation_notes": "",
+    "recommended_at": "2026-03-16T06:16:08.720Z",
+    "approver_id": null,
+    "final_decision": null,
+    "conditions": [],
+    "rejection_reason": null,
+    "decided_at": null,
+    "is_final": false
   }
 ]

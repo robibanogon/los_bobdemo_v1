@@ -232,6 +232,11 @@ class ApplicationService {
     return this.changeStatus(id, ApplicationService.STATUS.COMPLETED, userId, userName);
   }
 
+  async updateStatus(id, status, userId, userName) {
+    // Generic status update method that accepts any valid status
+    return this.changeStatus(id, status, userId, userName);
+  }
+
   async getStatistics() {
     const applications = await fileStorage.read('applications');
     

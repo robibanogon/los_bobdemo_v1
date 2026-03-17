@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { useToast } from '../context/ToastContext';
+import { useAuth } from '../context/AuthContext';
 import { applicationsAPI, documentsAPI } from '../services/api';
 
 const DocumentUpload = () => {
   const { id } = useParams();
   const navigate = useNavigate();
+  const { user } = useAuth();
   const { success, error: showError } = useToast();
   const [application, setApplication] = useState(null);
   const [documents, setDocuments] = useState([]);
@@ -13,6 +15,9 @@ const DocumentUpload = () => {
   const [uploading, setUploading] = useState(false);
   const [selectedFile, setSelectedFile] = useState(null);
   const [docType, setDocType] = useState('');
+
+  // Check if user can delete documents (RM role and Draft status)
+  const canDelete = application && application.status === 'Draft' && user?.role === 'RM';
 
   const docTypes = [
     'Bank Statement',
@@ -103,6 +108,70 @@ const DocumentUpload = () => {
       loadData();
     } catch (err) {
       showError(err.response?.data?.error || 'Failed to delete document');
+      console.error(err);
+    }
+  };
+
+  const handleView = async (docId, filename) => {
+    try {
+      const token = localStorage.getItem('token');
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      const url = `${apiUrl}/documents/${docId}/download`;
+      
+      // Open in new tab with auth header
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      
+      if (!response.ok) {
+        throw new Error('Failed to download document');
+      }
+      
+      const blob = await response.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      
+      // Open in new window
+      window.open(blobUrl, '_blank');
+      
+      // Clean up after a delay
+      setTimeout(() => URL.revokeObjectURL(blobUrl), 100);
+    } catch (err) {
+      showError('Failed to view document');
+      console.error(err);
+    }
+  };
+
+  const handleDownload = async (docId, filename) => {
+    try {
+      const token = localStorage.getItem('token');
+      const apiUrl = import.meta.env.VITE_API_URL || 'http://localhost:3001/api';
+      const url = `${apiUrl}/documents/${docId}/download`;
+      
+      const response = await fetch(url, {
+        headers: {
+          'Authorization': `Bearer ${token}`
+        }
+      });
+      
+      if (!response.ok) {
+        throw new Error('Failed to download document');
+      }
+      
+      const blob = await response.blob();
+      const blobUrl = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = blobUrl;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(blobUrl);
+      
+      success('Document downloaded successfully');
+    } catch (err) {
+      showError('Failed to download document');
       console.error(err);
     }
   };
@@ -320,12 +389,31 @@ const DocumentUpload = () => {
                     <td style={{ padding: '12px', color: '#64748b' }}>{formatDate(doc.uploaded_at)}</td>
                     <td style={{ padding: '12px', textAlign: 'center' }}>
                       <button
-                        onClick={() => handleDelete(doc.id)}
-                        className="btn btn-danger btn-sm"
-                        style={{ padding: '4px 12px', fontSize: '14px' }}
+                        onClick={() => handleView(doc.id, doc.original_filename)}
+                        className="btn btn-primary btn-sm"
+                        style={{ padding: '4px 12px', fontSize: '14px', marginRight: '8px' }}
+                        title="View document in new tab"
                       >
-                        Delete
+                        👁️ View
                       </button>
+                      <button
+                        onClick={() => handleDownload(doc.id, doc.original_filename)}
+                        className="btn btn-secondary btn-sm"
+                        style={{ padding: '4px 12px', fontSize: '14px', marginRight: '8px' }}
+                        title="Download document"
+                      >
+                        ⬇️ Download
+                      </button>
+                      {canDelete && (
+                        <button
+                          onClick={() => handleDelete(doc.id)}
+                          className="btn btn-danger btn-sm"
+                          style={{ padding: '4px 12px', fontSize: '14px' }}
+                          title="Delete document"
+                        >
+                          🗑️ Delete
+                        </button>
+                      )}
                     </td>
                   </tr>
                 ))}

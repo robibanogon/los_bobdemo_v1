@@ -162,6 +162,28 @@ router.post('/:id/complete', authenticate, authorize('Approver', 'Admin'), async
   }
 });
 
+// Update application status
+router.post('/:id/status', authenticate, async (req, res) => {
+  try {
+    const { status } = req.body;
+    
+    if (!status) {
+      return res.status(400).json({ error: 'Status is required' });
+    }
+    
+    const application = await applicationService.updateStatus(
+      req.params.id,
+      status,
+      req.user.id,
+      req.user.name
+    );
+    
+    res.json(application);
+  } catch (error) {
+    res.status(400).json({ error: error.message });
+  }
+});
+
 // Get documents for application
 router.get('/:id/documents', authenticate, async (req, res) => {
   try {
@@ -219,21 +241,46 @@ router.post('/:id/documents', authenticate, upload.single('file'), async (req, r
   }
 });
 
+// Get agent review
+router.get('/:id/agent-review', authenticate, async (req, res) => {
+  try {
+    const review = await agentReviewService.getReview(req.params.id);
+    
+    if (!review) {
+      return res.status(404).json({ error: 'Agent review not found' });
+    }
+    
+    res.json(review);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 // Run agent review
 router.post('/:id/agent-review', authenticate, async (req, res) => {
   try {
+    console.log(`Running agent review for application ${req.params.id}`);
+    
     const review = await agentReviewService.runReview(
       req.params.id,
       req.user.id,
       req.user.name
     );
     
-    // Move application to "In Review" status
-    await applicationService.moveToReview(req.params.id, req.user.id, req.user.name);
+    console.log('Agent review completed successfully');
+    
+    // Move application to "In Review" status only if it's currently "Submitted"
+    const application = await applicationService.getById(req.params.id);
+    if (application.status === 'Submitted') {
+      console.log('Moving application to In Review status');
+      await applicationService.moveToReview(req.params.id, req.user.id, req.user.name);
+    }
     
     res.json(review);
   } catch (error) {
-    res.status(500).json({ error: error.message });
+    console.error('Error running agent review:', error);
+    console.error('Error stack:', error.stack);
+    res.status(500).json({ error: error.message, details: error.stack });
   }
 });
 

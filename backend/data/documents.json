@@ -1675,5 +1675,42 @@
       "location": "Davao",
       "title_number": "TCT-38185"
     }
+  },
+  {
+    "id": "f9762b3c-4e9f-41e4-bc60-704e43abddde",
+    "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "doc_type": "Collateral Proof",
+    "filename": "82c88dc1-fd0f-4fd5-b0c0-53c3e76a7cdd-Sample-DOU-BJB Instana-POC-DOU copy.DOCX",
+    "original_filename": "Sample-DOU-BJB Instana-POC-DOU copy.DOCX",
+    "storage_path": "/Users/robi/Documents/GitHub/los_bobdemo/backend/data/uploads/82c88dc1-fd0f-4fd5-b0c0-53c3e76a7cdd-Sample-DOU-BJB Instana-POC-DOU copy.DOCX",
+    "file_size": 251058,
+    "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+    "uploaded_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "uploaded_at": "2026-03-17T06:02:03.267Z",
+    "extracted_fields": {
+      "property_type": "Real Estate",
+      "assessed_value": 3169411,
+      "location": "Metro Manila",
+      "title_number": "TCT-XXXXX"
+    }
+  },
+  {
+    "id": "d1e30658-e04f-4551-9e14-4aafeecce1ed",
+    "application_id": "6a2fad1a-39f0-4c98-8776-66505176f5f4",
+    "doc_type": "Bank Statement",
+    "filename": "78fe9514-04fa-42b9-abc3-50e4fa18765d-Flight.pdf",
+    "original_filename": "Flight.pdf",
+    "storage_path": "/Users/robi/Documents/GitHub/los_bobdemo/backend/data/uploads/78fe9514-04fa-42b9-abc3-50e4fa18765d-Flight.pdf",
+    "file_size": 2528833,
+    "mime_type": "application/pdf",
+    "uploaded_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "uploaded_at": "2026-03-17T07:03:37.251Z",
+    "extracted_fields": {
+      "total_credits": 365942,
+      "total_debits": 92678,
+      "ending_balance": 178475,
+      "statement_period": "3 months",
+      "average_monthly_balance": 142780
+    }
   }
 ]

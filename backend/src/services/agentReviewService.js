@@ -1,5 +1,6 @@
 const path = require('path');
 const fs = require('fs').promises;
+const { v4: uuidv4 } = require('uuid');
 const fileStorage = require('../utils/fileStorage');
 const documentService = require('./documentService');
 const analysisService = require('./analysisService');
@@ -44,17 +45,22 @@ class AgentReviewService {
     const recommendation = this.makeRecommendation(application, analysis, policy, missingDocs);
     
     const review = {
+      id: uuidv4(),
       application_id: applicationId,
       extracted_fields: extractedFields,
       missing_documents: missingDocs,
       data_quality_warnings: dataQualityWarnings,
       risk_flags: riskFlags,
-      recommendation: recommendation.decision,
+      recommended_decision: recommendation.decision,
       recommendation_reason: recommendation.reason,
       recommended_conditions: recommendation.conditions,
+      created_at: new Date().toISOString(),
       reviewed_at: new Date().toISOString(),
       reviewed_by: userId
     };
+
+    // Store the review
+    await fileStorage.append('agent_reviews', review);
 
     // Log review
     await auditService.log({
@@ -67,6 +73,21 @@ class AgentReviewService {
     });
 
     return review;
+  }
+
+  async getReview(applicationId) {
+    const reviews = await fileStorage.read('agent_reviews');
+    // Get the most recent review for this application
+    const appReviews = reviews.filter(r => r.application_id === applicationId);
+    
+    if (appReviews.length === 0) {
+      return null;
+    }
+    
+    // Return the most recent review
+    return appReviews.sort((a, b) =>
+      new Date(b.reviewed_at) - new Date(a.reviewed_at)
+    )[0];
   }
 
   extractFieldsFromDocuments(documents) {

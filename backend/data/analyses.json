@@ -358,5 +358,29 @@
     "created_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
     "created_at": "2026-01-31T07:50:02.452Z",
     "updated_at": "2026-03-12T07:50:02.452Z"
+  },
+  {
+    "id": "e33e87b7-a2a1-4b34-b5a2-ff7e950789ac",
+    "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "dscr": 5.130999062572018,
+    "net_cashflow": 246763,
+    "collateral_coverage": 140.47216681776973,
+    "risk_score": 88,
+    "flags": [
+      {
+        "type": "EXCEEDS_MAX_LOAN_AMOUNT",
+        "severity": "High",
+        "message": "Loan amount of ₱413,625 exceeds maximum of ₱300,000"
+      }
+    ],
+    "assumptions": {
+      "interest_rate": 0,
+      "default_rate": 2,
+      "recovery_rate": 70
+    },
+    "notes": "",
+    "created_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "created_at": "2026-03-17T07:12:36.866Z",
+    "updated_at": "2026-03-17T07:12:36.866Z"
   }
 ]

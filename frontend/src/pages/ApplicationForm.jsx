@@ -73,24 +73,24 @@ const ApplicationForm = () => {
       const response = await api.get(`/applications/${id}`);
       const app = response.data;
       
-      // Map API data to form data
+      // Map API data to form data (backend uses snake_case)
       setFormData({
-        applicantName: app.applicant?.legalName || '',
-        businessType: app.applicant?.businessType || '',
+        applicantName: app.applicant?.legal_name || '',
+        businessType: app.applicant?.business_type || '',
         industry: app.applicant?.industry || '',
-        yearsInBusiness: app.applicant?.yearsInBusiness || '',
-        loanAmount: app.loan?.amount || '',
-        tenor: app.loan?.tenor || '',
-        purpose: app.loan?.purpose || '',
-        repaymentType: app.loan?.repaymentType || 'monthly',
-        monthlyRevenue: app.financial?.monthlyRevenue || '',
-        monthlyExpenses: app.financial?.monthlyExpenses || '',
-        existingDebtPayment: app.financial?.existingDebtPayment || '',
+        yearsInBusiness: app.applicant?.years_in_business || '',
+        loanAmount: app.loan_request?.amount || '',
+        tenor: app.loan_request?.tenor_months || '',
+        purpose: app.loan_request?.purpose || '',
+        repaymentType: app.loan_request?.repayment_type || 'monthly',
+        monthlyRevenue: app.financial_snapshot?.monthly_revenue || '',
+        monthlyExpenses: app.financial_snapshot?.monthly_expenses || '',
+        existingDebtPayment: app.financial_snapshot?.existing_debt_payment || '',
         collateralType: app.collateral?.type || '',
-        collateralValue: app.collateral?.estimatedValue || '',
-        ownerName: app.owner?.name || '',
-        ownerIdNumber: app.owner?.idNumber || '',
-        creditScore: app.owner?.creditScore || ''
+        collateralValue: app.collateral?.estimated_value || '',
+        ownerName: app.owner_info?.name || '',
+        ownerIdNumber: app.owner_info?.id_number || '',
+        creditScore: app.owner_info?.credit_score || ''
       });
     } catch (err) {
       showError('Failed to load application');
@@ -106,6 +106,42 @@ const ApplicationForm = () => {
       ...prev,
       [name]: value
     }));
+  };
+
+  // Format currency for display
+  const formatCurrency = (value) => {
+    if (!value || value === '') return '';
+    const num = parseFloat(value);
+    if (isNaN(num)) return '';
+    return num.toLocaleString('en-PH', {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2
+    });
+  };
+
+  // Handle currency field blur to format display
+  const handleCurrencyBlur = (e) => {
+    const { name, value } = e.target;
+    if (value && value !== '') {
+      const formatted = formatCurrency(value);
+      setFormData(prev => ({
+        ...prev,
+        [name]: formatted
+      }));
+    }
+  };
+
+  // Handle currency field focus to remove formatting
+  const handleCurrencyFocus = (e) => {
+    const { name, value } = e.target;
+    if (value && value !== '') {
+      // Remove commas and keep only numbers and decimal point
+      const unformatted = value.replace(/,/g, '');
+      setFormData(prev => ({
+        ...prev,
+        [name]: unformatted
+      }));
+    }
   };
 
   const handleSubmit = async (e) => {
@@ -129,19 +165,19 @@ const ApplicationForm = () => {
           yearsInBusiness: parseInt(formData.yearsInBusiness) || 0
         },
         loan: {
-          amount: parseFloat(formData.loanAmount) || 0,
+          amount: parseFloat(formData.loanAmount.replace(/,/g, '')) || 0,
           tenor: parseInt(formData.tenor) || 0,
           purpose: formData.purpose,
           repaymentType: formData.repaymentType
         },
         financial: {
-          monthlyRevenue: parseFloat(formData.monthlyRevenue) || 0,
-          monthlyExpenses: parseFloat(formData.monthlyExpenses) || 0,
-          existingDebtPayment: parseFloat(formData.existingDebtPayment) || 0
+          monthlyRevenue: parseFloat(formData.monthlyRevenue.replace(/,/g, '')) || 0,
+          monthlyExpenses: parseFloat(formData.monthlyExpenses.replace(/,/g, '')) || 0,
+          existingDebtPayment: parseFloat(formData.existingDebtPayment.replace(/,/g, '')) || 0
         },
         collateral: {
           type: formData.collateralType,
-          estimatedValue: parseFloat(formData.collateralValue) || 0
+          estimatedValue: parseFloat(formData.collateralValue.replace(/,/g, '')) || 0
         },
         owner: {
           name: formData.ownerName,
@@ -299,13 +335,13 @@ const ApplicationForm = () => {
                 Loan Amount (₱) <span style={{ color: 'red' }}>*</span>
               </label>
               <input
-                type="number"
+                type="text"
                 name="loanAmount"
                 value={formData.loanAmount}
                 onChange={handleChange}
+                onBlur={handleCurrencyBlur}
+                onFocus={handleCurrencyFocus}
                 required
-                min="0"
-                step="0.01"
                 style={{
                   width: '100%',
                   padding: '8px',
@@ -387,13 +423,13 @@ const ApplicationForm = () => {
                 Monthly Revenue (₱) <span style={{ color: 'red' }}>*</span>
               </label>
               <input
-                type="number"
+                type="text"
                 name="monthlyRevenue"
                 value={formData.monthlyRevenue}
                 onChange={handleChange}
+                onBlur={handleCurrencyBlur}
+                onFocus={handleCurrencyFocus}
                 required
-                min="0"
-                step="0.01"
                 style={{
                   width: '100%',
                   padding: '8px',
@@ -407,13 +443,13 @@ const ApplicationForm = () => {
                 Monthly Expenses (₱) <span style={{ color: 'red' }}>*</span>
               </label>
               <input
-                type="number"
+                type="text"
                 name="monthlyExpenses"
                 value={formData.monthlyExpenses}
                 onChange={handleChange}
+                onBlur={handleCurrencyBlur}
+                onFocus={handleCurrencyFocus}
                 required
-                min="0"
-                step="0.01"
                 style={{
                   width: '100%',
                   padding: '8px',
@@ -427,13 +463,13 @@ const ApplicationForm = () => {
                 Existing Debt Payment (₱) <span style={{ color: 'red' }}>*</span>
               </label>
               <input
-                type="number"
+                type="text"
                 name="existingDebtPayment"
                 value={formData.existingDebtPayment}
                 onChange={handleChange}
+                onBlur={handleCurrencyBlur}
+                onFocus={handleCurrencyFocus}
                 required
-                min="0"
-                step="0.01"
                 style={{
                   width: '100%',
                   padding: '8px',
@@ -476,13 +512,13 @@ const ApplicationForm = () => {
                 Estimated Value (₱) <span style={{ color: 'red' }}>*</span>
               </label>
               <input
-                type="number"
+                type="text"
                 name="collateralValue"
                 value={formData.collateralValue}
                 onChange={handleChange}
+                onBlur={handleCurrencyBlur}
+                onFocus={handleCurrencyFocus}
                 required
-                min="0"
-                step="0.01"
                 style={{
                   width: '100%',
                   padding: '8px',

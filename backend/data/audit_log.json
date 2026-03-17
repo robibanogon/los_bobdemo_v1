@@ -88,5 +88,926 @@
       "ip_address": "::1",
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
     }
+  },
+  {
+    "id": "c5715fdb-a63f-4bd8-9571-d24d4a36d923",
+    "timestamp": "2026-03-12T09:12:51.417Z",
+    "actor_id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "actor_name": "System Admin",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "86cabcd8-9c79-40c3-a5f9-03d6a29dc512",
+    "timestamp": "2026-03-12T09:29:00.424Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "d3cd6650-321e-4a12-a0c6-73962441cacd",
+    "timestamp": "2026-03-12T09:38:53.954Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "b081e097-5c82-481d-b475-65ecc3864eed",
+    "timestamp": "2026-03-16T06:14:08.722Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "29fc618a-b13f-4948-b0be-1dcaee02e9f3",
+    "timestamp": "2026-03-16T06:16:08.723Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "SUBMIT_RECOMMENDATION",
+    "entity_type": "Decision",
+    "entity_id": "60885777-e3da-46a0-9953-f2d00bdc4c63",
+    "before": null,
+    "after": {
+      "id": "60885777-e3da-46a0-9953-f2d00bdc4c63",
+      "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+      "recommended_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+      "recommended_decision": "Approve",
+      "recommendation_notes": "",
+      "recommended_at": "2026-03-16T06:16:08.720Z",
+      "approver_id": null,
+      "final_decision": null,
+      "conditions": [],
+      "rejection_reason": null,
+      "decided_at": null,
+      "is_final": false
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "b0808134-bb94-4047-9938-ea7146b67cfd",
+    "timestamp": "2026-03-16T06:16:30.624Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "6f1a014f-5c1d-494d-92d2-e0a840003dab",
+    "timestamp": "2026-03-16T06:17:14.893Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "GENERATE_MEMO",
+    "entity_type": "Application",
+    "entity_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null,
+      "memo_generated": true
+    }
+  },
+  {
+    "id": "5f341fe8-3b23-46c9-a6a4-8d109b3a5fbe",
+    "timestamp": "2026-03-16T06:17:14.910Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "GENERATE_MEMO",
+    "entity_type": "Application",
+    "entity_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null,
+      "memo_generated": true
+    }
+  },
+  {
+    "id": "8641a43a-ca0f-4c66-a40b-9529fe4f7ebf",
+    "timestamp": "2026-03-16T06:18:29.715Z",
+    "actor_id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "actor_name": "System Admin",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "de71926d-6e18-4e53-988e-b411c74223d3",
+    "timestamp": "2026-03-16T06:18:45.230Z",
+    "actor_id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "actor_name": "System Admin",
+    "action": "GENERATE_MEMO",
+    "entity_type": "Application",
+    "entity_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null,
+      "memo_generated": true
+    }
+  },
+  {
+    "id": "155f9f88-e439-4427-9f1b-d708b86559ea",
+    "timestamp": "2026-03-16T06:18:45.236Z",
+    "actor_id": "81b00e32-3d74-41a3-b3b0-335fda0a270c",
+    "actor_name": "System Admin",
+    "action": "GENERATE_MEMO",
+    "entity_type": "Application",
+    "entity_id": "d7544bec-8319-4346-8813-011858bc6ac2",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null,
+      "memo_generated": true
+    }
+  },
+  {
+    "id": "aa0d5d59-9ab5-4881-8595-c1d413544071",
+    "timestamp": "2026-03-16T07:43:32.521Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "049b4cde-165d-478d-a5a7-3ae158676b03",
+    "timestamp": "2026-03-16T08:35:06.561Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "0f532c6a-3028-4ebe-89bb-93b07ce17f8c",
+    "timestamp": "2026-03-16T08:35:38.401Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "9e82adae-138c-484d-9fb1-7ceaac0c1b85",
+    "timestamp": "2026-03-16T08:36:10.996Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "bfb7a6b6-27ba-4549-96ef-d9593132bb94",
+    "timestamp": "2026-03-16T08:36:26.922Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "GENERATE_MEMO",
+    "entity_type": "Application",
+    "entity_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null,
+      "memo_generated": true
+    }
+  },
+  {
+    "id": "ecbb1127-8bc1-410f-a39b-ff59696548ea",
+    "timestamp": "2026-03-16T08:36:26.927Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "GENERATE_MEMO",
+    "entity_type": "Application",
+    "entity_id": "02c2a6bf-9ed2-4579-a7ce-3103c14a6650",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null,
+      "memo_generated": true
+    }
+  },
+  {
+    "id": "4fe23857-0d12-4223-9d09-9c35a8104cc5",
+    "timestamp": "2026-03-16T17:57:55.887Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "acfa2243-b538-4e8b-a4b0-4117e4a7b95f",
+    "timestamp": "2026-03-16T18:05:24.908Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "767d7b82-5f00-46ad-9b09-d13bf1db4a1b",
+    "timestamp": "2026-03-16T18:19:47.709Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "50233173-0bcb-4271-93cd-498b2e94072b",
+    "timestamp": "2026-03-16T18:24:14.272Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "e5ea36a0-bcf0-4d81-9904-2a63bc615229",
+    "timestamp": "2026-03-16T18:28:38.903Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "7806c922-e088-499c-9297-3e028db4645d",
+    "timestamp": "2026-03-17T01:57:22.318Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "e25548fd-1117-4a90-bc4d-906cdd256b22",
+    "timestamp": "2026-03-17T02:42:59.813Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "fa9a4ad9-9573-4b27-a6db-d9b5ade88a24",
+    "timestamp": "2026-03-17T02:50:56.251Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "717f4535-77b2-4803-b145-aaf272c55f1d",
+    "timestamp": "2026-03-17T02:55:39.565Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "a0d1d241-eba8-4386-8a60-da23081adc7e",
+    "timestamp": "2026-03-17T03:01:54.540Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "curl/8.7.1"
+    }
+  },
+  {
+    "id": "bc6d39d9-cf0f-44a6-9c23-fd9477e97c63",
+    "timestamp": "2026-03-17T03:04:36.224Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "RUN_AGENT_REVIEW",
+    "entity_type": "Application",
+    "entity_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "before": null,
+    "after": {
+      "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+      "extracted_fields": {
+        "Bank Statement": {
+          "total_credits": 480186,
+          "total_debits": 300126,
+          "ending_balance": 56998,
+          "statement_period": "3 months",
+          "average_monthly_balance": 62140
+        },
+        "Financial Statement": {
+          "total_revenue": 668298,
+          "total_expenses": 501223,
+          "net_income": 167075,
+          "total_assets": 1462848,
+          "total_liabilities": 956924,
+          "period": "Annual"
+        },
+        "ID/KYC": {
+          "id_type": "Government ID",
+          "id_number": "XXXX-XXXX-9408",
+          "name_on_id": "Verified",
+          "expiry_date": "2028-12-31"
+        },
+        "Collateral Proof": {
+          "property_type": "Vehicle",
+          "assessed_value": 3158732,
+          "location": "Metro Manila",
+          "title_number": "TCT-17339"
+        }
+      },
+      "missing_documents": [],
+      "data_quality_warnings": [
+        {
+          "field": "collateral",
+          "severity": "Medium",
+          "message": "Collateral value is less than loan amount"
+        }
+      ],
+      "risk_flags": [],
+      "recommendation": "Reject",
+      "recommendation_reason": "Credit score of 606 is below minimum 650; Collateral coverage of 88% is below minimum 120%",
+      "recommended_conditions": [],
+      "reviewed_at": "2026-03-17T03:04:36.218Z",
+      "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "754731be-adc3-45ba-9a85-ff328fa416ed",
+    "timestamp": "2026-03-17T03:09:56.026Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "RUN_AGENT_REVIEW",
+    "entity_type": "Application",
+    "entity_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "before": null,
+    "after": {
+      "id": "698211b3-6d8a-4548-979e-68221262a6fd",
+      "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+      "extracted_fields": {
+        "Bank Statement": {
+          "total_credits": 107616,
+          "total_debits": 368625,
+          "ending_balance": 89940,
+          "statement_period": "3 months",
+          "average_monthly_balance": 88302
+        },
+        "Financial Statement": {
+          "total_revenue": 928564,
+          "total_expenses": 696423,
+          "net_income": 232141,
+          "total_assets": 1472315,
+          "total_liabilities": 396778,
+          "period": "Annual"
+        },
+        "ID/KYC": {
+          "id_type": "Government ID",
+          "id_number": "XXXX-XXXX-6592",
+          "name_on_id": "Verified",
+          "expiry_date": "2028-12-31"
+        },
+        "Collateral Proof": {
+          "property_type": "Real Estate",
+          "assessed_value": 1682007,
+          "location": "Metro Manila",
+          "title_number": "TCT-66696"
+        }
+      },
+      "missing_documents": [],
+      "data_quality_warnings": [],
+      "risk_flags": [],
+      "recommended_decision": "Reject",
+      "recommendation_reason": "Loan amount ₱392,616 exceeds maximum ₱300,000",
+      "recommended_conditions": [],
+      "created_at": "2026-03-17T03:09:56.024Z",
+      "reviewed_at": "2026-03-17T03:09:56.024Z",
+      "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "6c15e1d7-3b7e-4847-8415-d05e0c06a388",
+    "timestamp": "2026-03-17T03:18:32.206Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "RUN_AGENT_REVIEW",
+    "entity_type": "Application",
+    "entity_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "before": null,
+    "after": {
+      "id": "891040c0-da2a-48b6-a7b5-f401ad47ede6",
+      "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+      "extracted_fields": {
+        "Bank Statement": {
+          "total_credits": 290150,
+          "total_debits": 365764,
+          "ending_balance": 66106,
+          "statement_period": "3 months",
+          "average_monthly_balance": 102880
+        },
+        "Financial Statement": {
+          "total_revenue": 495263,
+          "total_expenses": 371447,
+          "net_income": 123816,
+          "total_assets": 617878,
+          "total_liabilities": 882941,
+          "period": "Annual"
+        },
+        "ID/KYC": {
+          "id_type": "Government ID",
+          "id_number": "XXXX-XXXX-7125",
+          "name_on_id": "Verified",
+          "expiry_date": "2028-12-31"
+        },
+        "Collateral Proof": {
+          "property_type": "Vehicle",
+          "assessed_value": 4948531,
+          "location": "Davao",
+          "title_number": "TCT-64528"
+        }
+      },
+      "missing_documents": [],
+      "data_quality_warnings": [],
+      "risk_flags": [],
+      "recommended_decision": "Reject",
+      "recommendation_reason": "Credit score of 627 is below minimum 650; Loan amount ₱314,268 exceeds maximum ₱300,000",
+      "recommended_conditions": [],
+      "created_at": "2026-03-17T03:18:32.204Z",
+      "reviewed_at": "2026-03-17T03:18:32.204Z",
+      "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "dd72ef9f-85b3-41f1-9954-7be5d9bec5f4",
+    "timestamp": "2026-03-17T03:19:14.973Z",
+    "actor_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "actor_name": "Ana Reyes",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "1b0f797f-702f-4aca-be72-fdba9a9393f7",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "4cdb8ae9-8149-4965-ba66-b433ff5bf367",
+    "timestamp": "2026-03-17T03:33:58.484Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "ea7dfa89-00ae-44b8-9996-9fb545c3a623",
+    "timestamp": "2026-03-17T06:02:03.271Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "UPLOAD_DOCUMENT",
+    "entity_type": "Document",
+    "entity_id": "f9762b3c-4e9f-41e4-bc60-704e43abddde",
+    "before": null,
+    "after": {
+      "id": "f9762b3c-4e9f-41e4-bc60-704e43abddde",
+      "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+      "doc_type": "Collateral Proof",
+      "filename": "82c88dc1-fd0f-4fd5-b0c0-53c3e76a7cdd-Sample-DOU-BJB Instana-POC-DOU copy.DOCX",
+      "original_filename": "Sample-DOU-BJB Instana-POC-DOU copy.DOCX",
+      "storage_path": "/Users/robi/Documents/GitHub/los_bobdemo/backend/data/uploads/82c88dc1-fd0f-4fd5-b0c0-53c3e76a7cdd-Sample-DOU-BJB Instana-POC-DOU copy.DOCX",
+      "file_size": 251058,
+      "mime_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "uploaded_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+      "uploaded_at": "2026-03-17T06:02:03.267Z",
+      "extracted_fields": {
+        "property_type": "Real Estate",
+        "assessed_value": 3169411,
+        "location": "Metro Manila",
+        "title_number": "TCT-XXXXX"
+      }
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "44783ef2-af8b-4523-a357-dc26019111e5",
+    "timestamp": "2026-03-17T07:00:58.832Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "c8179af3-3a28-4797-8c7d-0aa808500f4f",
+    "timestamp": "2026-03-17T07:01:17.823Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "UPLOAD_DOCUMENT",
+    "entity_type": "Document",
+    "entity_id": "2d835e15-4ad0-4627-84a5-de73151806da",
+    "before": null,
+    "after": {
+      "id": "2d835e15-4ad0-4627-84a5-de73151806da",
+      "application_id": "6a2fad1a-39f0-4c98-8776-66505176f5f4",
+      "doc_type": "Bank Statement",
+      "filename": "4329bd5f-a1b4-429e-8a3e-ded5c7f395f9-Flight.pdf",
+      "original_filename": "Flight.pdf",
+      "storage_path": "/Users/robi/Documents/GitHub/los_bobdemo/backend/data/uploads/4329bd5f-a1b4-429e-8a3e-ded5c7f395f9-Flight.pdf",
+      "file_size": 2528833,
+      "mime_type": "application/pdf",
+      "uploaded_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+      "uploaded_at": "2026-03-17T07:01:17.819Z",
+      "extracted_fields": {
+        "total_credits": 406335,
+        "total_debits": 191558,
+        "ending_balance": 100937,
+        "statement_period": "3 months",
+        "average_monthly_balance": 80749
+      }
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "65850f3f-26f3-4704-bb57-a93e68f5fec9",
+    "timestamp": "2026-03-17T07:02:29.351Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "DELETE_DOCUMENT",
+    "entity_type": "Document",
+    "entity_id": "2d835e15-4ad0-4627-84a5-de73151806da",
+    "before": {
+      "id": "2d835e15-4ad0-4627-84a5-de73151806da",
+      "application_id": "6a2fad1a-39f0-4c98-8776-66505176f5f4",
+      "doc_type": "Bank Statement",
+      "filename": "4329bd5f-a1b4-429e-8a3e-ded5c7f395f9-Flight.pdf",
+      "original_filename": "Flight.pdf",
+      "storage_path": "/Users/robi/Documents/GitHub/los_bobdemo/backend/data/uploads/4329bd5f-a1b4-429e-8a3e-ded5c7f395f9-Flight.pdf",
+      "file_size": 2528833,
+      "mime_type": "application/pdf",
+      "uploaded_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+      "uploaded_at": "2026-03-17T07:01:17.819Z",
+      "extracted_fields": {
+        "total_credits": 406335,
+        "total_debits": 191558,
+        "ending_balance": 100937,
+        "statement_period": "3 months",
+        "average_monthly_balance": 80749
+      }
+    },
+    "after": null,
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "3b986755-238c-4fa6-a5e5-a3be77848ad2",
+    "timestamp": "2026-03-17T07:03:37.255Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "UPLOAD_DOCUMENT",
+    "entity_type": "Document",
+    "entity_id": "d1e30658-e04f-4551-9e14-4aafeecce1ed",
+    "before": null,
+    "after": {
+      "id": "d1e30658-e04f-4551-9e14-4aafeecce1ed",
+      "application_id": "6a2fad1a-39f0-4c98-8776-66505176f5f4",
+      "doc_type": "Bank Statement",
+      "filename": "78fe9514-04fa-42b9-abc3-50e4fa18765d-Flight.pdf",
+      "original_filename": "Flight.pdf",
+      "storage_path": "/Users/robi/Documents/GitHub/los_bobdemo/backend/data/uploads/78fe9514-04fa-42b9-abc3-50e4fa18765d-Flight.pdf",
+      "file_size": 2528833,
+      "mime_type": "application/pdf",
+      "uploaded_by": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+      "uploaded_at": "2026-03-17T07:03:37.251Z",
+      "extracted_fields": {
+        "total_credits": 365942,
+        "total_debits": 92678,
+        "ending_balance": 178475,
+        "statement_period": "3 months",
+        "average_monthly_balance": 142780
+      }
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "edf66996-649c-4bbc-9682-a68b2e670eac",
+    "timestamp": "2026-03-17T07:04:17.618Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36"
+    }
+  },
+  {
+    "id": "ad6bd6f6-2f8d-43dd-b804-458a96f3b0a0",
+    "timestamp": "2026-03-17T07:12:16.721Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "CHANGE_STATUS_TO_IN_REVIEW",
+    "entity_type": "Application",
+    "entity_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "before": {
+      "status": "Submitted"
+    },
+    "after": {
+      "status": "In Review"
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "ccd5b87b-0581-49a1-85c3-9eef202b7f3f",
+    "timestamp": "2026-03-17T07:12:36.868Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "CREATE_ANALYSIS",
+    "entity_type": "Analysis",
+    "entity_id": "e33e87b7-a2a1-4b34-b5a2-ff7e950789ac",
+    "before": null,
+    "after": {
+      "id": "e33e87b7-a2a1-4b34-b5a2-ff7e950789ac",
+      "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+      "dscr": 5.130999062572018,
+      "net_cashflow": 246763,
+      "collateral_coverage": 140.47216681776973,
+      "risk_score": 88,
+      "flags": [
+        {
+          "type": "EXCEEDS_MAX_LOAN_AMOUNT",
+          "severity": "High",
+          "message": "Loan amount of ₱413,625 exceeds maximum of ₱300,000"
+        }
+      ],
+      "assumptions": {
+        "interest_rate": 0,
+        "default_rate": 2,
+        "recovery_rate": 70
+      },
+      "notes": "",
+      "created_by": "bb0e97b6-434e-4620-a002-790e8de8893c",
+      "created_at": "2026-03-17T07:12:36.866Z",
+      "updated_at": "2026-03-17T07:12:36.866Z"
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "a7c66903-67cb-4e75-b751-d6d5ec3965b0",
+    "timestamp": "2026-03-17T07:12:36.871Z",
+    "actor_id": "bb0e97b6-434e-4620-a002-790e8de8893c",
+    "actor_name": "Juan Dela Cruz",
+    "action": "RUN_AGENT_REVIEW",
+    "entity_type": "Application",
+    "entity_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "before": null,
+    "after": {
+      "id": "6acf136a-b771-409f-a7cc-f41a24293bde",
+      "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+      "extracted_fields": {
+        "Bank Statement": {
+          "total_credits": 196608,
+          "total_debits": 397812,
+          "ending_balance": 198109,
+          "statement_period": "3 months",
+          "average_monthly_balance": 122103
+        },
+        "Financial Statement": {
+          "total_revenue": 301972,
+          "total_expenses": 226479,
+          "net_income": 75493,
+          "total_assets": 819542,
+          "total_liabilities": 544748,
+          "period": "Annual"
+        },
+        "ID/KYC": {
+          "id_type": "Government ID",
+          "id_number": "XXXX-XXXX-2567",
+          "name_on_id": "Verified",
+          "expiry_date": "2028-12-31"
+        },
+        "Collateral Proof": {
+          "property_type": "Real Estate",
+          "assessed_value": 3169411,
+          "location": "Metro Manila",
+          "title_number": "TCT-XXXXX"
+        }
+      },
+      "missing_documents": [],
+      "data_quality_warnings": [],
+      "risk_flags": [
+        {
+          "type": "EXCEEDS_MAX_LOAN_AMOUNT",
+          "severity": "High",
+          "message": "Loan amount of ₱413,625 exceeds maximum of ₱300,000"
+        }
+      ],
+      "recommended_decision": "Reject",
+      "recommendation_reason": "Loan amount ₱413,625 exceeds maximum ₱300,000",
+      "recommended_conditions": [],
+      "created_at": "2026-03-17T07:12:36.870Z",
+      "reviewed_at": "2026-03-17T07:12:36.870Z",
+      "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+    },
+    "metadata": {
+      "ip_address": null,
+      "user_agent": null
+    }
+  },
+  {
+    "id": "48c6c889-c8a6-4143-8e6e-3cc2254ba31d",
+    "timestamp": "2026-03-17T07:15:32.039Z",
+    "actor_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "actor_name": "Maria Santos",
+    "action": "LOGIN",
+    "entity_type": "User",
+    "entity_id": "4b5aa85f-9f52-4801-a166-6eb9febccb95",
+    "before": null,
+    "after": null,
+    "metadata": {
+      "ip_address": "::1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    }
   }
 ]

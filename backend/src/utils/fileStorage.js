@@ -10,7 +10,8 @@ class FileStorage {
       documents: path.join(dataDir, 'documents.json'),
       analyses: path.join(dataDir, 'analyses.json'),
       decisions: path.join(dataDir, 'decisions.json'),
-      auditLog: path.join(dataDir, 'audit_log.json')
+      auditLog: path.join(dataDir, 'audit_log.json'),
+      agent_reviews: path.join(dataDir, 'agent_reviews.json')
     };
   }
 

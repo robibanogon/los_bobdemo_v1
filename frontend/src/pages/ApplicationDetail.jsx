@@ -64,16 +64,31 @@ const ApplicationDetail = () => {
     }
   };
 
+  const handleMoveToReview = async () => {
+    try {
+      setActionLoading(true);
+      // Move application to In Review status
+      await applicationsAPI.updateStatus(id, 'In Review');
+      success('Application moved to In Review');
+      // Reload application data
+      loadApplication();
+    } catch (error) {
+      showError(error.response?.data?.error || 'Failed to move application to review');
+      console.error('Error moving to review:', error);
+      setActionLoading(false);
+    }
+  };
+
   const handleRunReview = async () => {
     try {
       setActionLoading(true);
-      await applicationsAPI.runAgentReview(id);
+      await agentReviewAPI.run(id);
       success('Agent review completed successfully');
-      loadApplication();
+      // Navigate to review page after successful review
+      navigate(`/applications/${id}/review`);
     } catch (error) {
       showError(error.response?.data?.error || 'Failed to run agent review');
       console.error('Error running review:', error);
-    } finally {
       setActionLoading(false);
     }
   };
@@ -313,16 +328,23 @@ const ApplicationDetail = () => {
         {application.status === 'Submitted' && (user?.role === 'RM' || user?.role === 'Credit Analyst') && (
           <button
             className="btn btn-primary"
-            onClick={handleRunReview}
+            onClick={handleMoveToReview}
             disabled={actionLoading}
           >
-            {actionLoading ? 'Running...' : 'Run Agent Review'}
+            {actionLoading ? 'Moving...' : 'Move to In Review'}
           </button>
         )}
         {application.status === 'In Review' && (
           <>
             <button
               className="btn btn-primary"
+              onClick={handleRunReview}
+              disabled={actionLoading}
+            >
+              {actionLoading ? 'Running...' : 'Run Agent Review'}
+            </button>
+            <button
+              className="btn btn-outline"
               onClick={() => navigate(`/applications/${id}/review`)}
             >
               View Agent Review

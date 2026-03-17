@@ -440,6 +440,25 @@ const DecisionWorkflow = () => {
         </div>
       )}
 
+      {/* Approver Waiting for Recommendation */}
+      {isApprover && !hasRecommendation && !hasFinalDecision && (
+        <div className="card text-center" style={{ backgroundColor: '#fff3cd', border: '1px solid #ffeaa7' }}>
+          <div style={{ fontSize: '48px', marginBottom: '15px' }}>⏳</div>
+          <h2 style={{ color: '#856404' }}>Waiting for Analyst Recommendation</h2>
+          <p style={{ color: '#856404', marginTop: '10px', marginBottom: '20px' }}>
+            The Credit Analyst has not yet submitted their recommendation for this application.
+            <br />
+            You will be able to make the final decision once the analyst completes their review.
+          </p>
+          <button
+            onClick={() => navigate(`/applications/${id}`)}
+            className="btn btn-outline"
+          >
+            Back to Application
+          </button>
+        </div>
+      )}
+
       {/* Access Denied Messages */}
       {!isAnalyst && !isApprover && (
         <div className="card text-center">

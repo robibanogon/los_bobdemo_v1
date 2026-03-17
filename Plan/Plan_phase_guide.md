@@ -1,5 +1,5 @@
 Build an MVP Loan Origination System (LOS) web app based on:
-- /Users/raishira/Downloads/Github/BOB-Show/Demo_BRI/Requirements.md
+- /Users/robi/Documents/GitHub/los_bobdemo/Plan/Plan_phase_guide.md
 
 Step 1 (MANDATORY): Do NOT code yet. First produce a complete plan + architecture diagrams.
 
@@ -27,4 +27,4 @@ Rules:
 - If something is missing, make reasonable assumptions and list them.
 - Use bullet points. Keep it readable.
 
-Start by reading /Users/raishira/Downloads/Github/BOB-Show/Demo_BRI/Requirements.md and output the plan + diagrams + specs.
+Start by reading /Users/robi/Documents/GitHub/los_bobdemo/Plan/Requirements.md and output the plan + diagrams + specs.

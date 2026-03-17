@@ -1,0 +1,180 @@
+[
+  {
+    "application_id": "9bdc55b5-08bb-4e96-9bee-38223f6824fe",
+    "extracted_fields": {
+      "Bank Statement": {
+        "total_credits": 480186,
+        "total_debits": 300126,
+        "ending_balance": 56998,
+        "statement_period": "3 months",
+        "average_monthly_balance": 62140
+      },
+      "Financial Statement": {
+        "total_revenue": 668298,
+        "total_expenses": 501223,
+        "net_income": 167075,
+        "total_assets": 1462848,
+        "total_liabilities": 956924,
+        "period": "Annual"
+      },
+      "ID/KYC": {
+        "id_type": "Government ID",
+        "id_number": "XXXX-XXXX-9408",
+        "name_on_id": "Verified",
+        "expiry_date": "2028-12-31"
+      },
+      "Collateral Proof": {
+        "property_type": "Vehicle",
+        "assessed_value": 3158732,
+        "location": "Metro Manila",
+        "title_number": "TCT-17339"
+      }
+    },
+    "missing_documents": [],
+    "data_quality_warnings": [
+      {
+        "field": "collateral",
+        "severity": "Medium",
+        "message": "Collateral value is less than loan amount"
+      }
+    ],
+    "risk_flags": [],
+    "recommendation": "Reject",
+    "recommendation_reason": "Credit score of 606 is below minimum 650; Collateral coverage of 88% is below minimum 120%",
+    "recommended_conditions": [],
+    "reviewed_at": "2026-03-17T03:04:36.218Z",
+    "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+  },
+  {
+    "id": "698211b3-6d8a-4548-979e-68221262a6fd",
+    "application_id": "06a8c70c-1133-4a99-89d8-da337b30d137",
+    "extracted_fields": {
+      "Bank Statement": {
+        "total_credits": 107616,
+        "total_debits": 368625,
+        "ending_balance": 89940,
+        "statement_period": "3 months",
+        "average_monthly_balance": 88302
+      },
+      "Financial Statement": {
+        "total_revenue": 928564,
+        "total_expenses": 696423,
+        "net_income": 232141,
+        "total_assets": 1472315,
+        "total_liabilities": 396778,
+        "period": "Annual"
+      },
+      "ID/KYC": {
+        "id_type": "Government ID",
+        "id_number": "XXXX-XXXX-6592",
+        "name_on_id": "Verified",
+        "expiry_date": "2028-12-31"
+      },
+      "Collateral Proof": {
+        "property_type": "Real Estate",
+        "assessed_value": 1682007,
+        "location": "Metro Manila",
+        "title_number": "TCT-66696"
+      }
+    },
+    "missing_documents": [],
+    "data_quality_warnings": [],
+    "risk_flags": [],
+    "recommended_decision": "Reject",
+    "recommendation_reason": "Loan amount ₱392,616 exceeds maximum ₱300,000",
+    "recommended_conditions": [],
+    "created_at": "2026-03-17T03:09:56.024Z",
+    "reviewed_at": "2026-03-17T03:09:56.024Z",
+    "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+  },
+  {
+    "id": "891040c0-da2a-48b6-a7b5-f401ad47ede6",
+    "application_id": "532315fc-8139-41ce-a264-44a50879f498",
+    "extracted_fields": {
+      "Bank Statement": {
+        "total_credits": 290150,
+        "total_debits": 365764,
+        "ending_balance": 66106,
+        "statement_period": "3 months",
+        "average_monthly_balance": 102880
+      },
+      "Financial Statement": {
+        "total_revenue": 495263,
+        "total_expenses": 371447,
+        "net_income": 123816,
+        "total_assets": 617878,
+        "total_liabilities": 882941,
+        "period": "Annual"
+      },
+      "ID/KYC": {
+        "id_type": "Government ID",
+        "id_number": "XXXX-XXXX-7125",
+        "name_on_id": "Verified",
+        "expiry_date": "2028-12-31"
+      },
+      "Collateral Proof": {
+        "property_type": "Vehicle",
+        "assessed_value": 4948531,
+        "location": "Davao",
+        "title_number": "TCT-64528"
+      }
+    },
+    "missing_documents": [],
+    "data_quality_warnings": [],
+    "risk_flags": [],
+    "recommended_decision": "Reject",
+    "recommendation_reason": "Credit score of 627 is below minimum 650; Loan amount ₱314,268 exceeds maximum ₱300,000",
+    "recommended_conditions": [],
+    "created_at": "2026-03-17T03:18:32.204Z",
+    "reviewed_at": "2026-03-17T03:18:32.204Z",
+    "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+  },
+  {
+    "id": "6acf136a-b771-409f-a7cc-f41a24293bde",
+    "application_id": "9a6394b0-571d-4f5e-9794-84ddaeb27e3a",
+    "extracted_fields": {
+      "Bank Statement": {
+        "total_credits": 196608,
+        "total_debits": 397812,
+        "ending_balance": 198109,
+        "statement_period": "3 months",
+        "average_monthly_balance": 122103
+      },
+      "Financial Statement": {
+        "total_revenue": 301972,
+        "total_expenses": 226479,
+        "net_income": 75493,
+        "total_assets": 819542,
+        "total_liabilities": 544748,
+        "period": "Annual"
+      },
+      "ID/KYC": {
+        "id_type": "Government ID",
+        "id_number": "XXXX-XXXX-2567",
+        "name_on_id": "Verified",
+        "expiry_date": "2028-12-31"
+      },
+      "Collateral Proof": {
+        "property_type": "Real Estate",
+        "assessed_value": 3169411,
+        "location": "Metro Manila",
+        "title_number": "TCT-XXXXX"
+      }
+    },
+    "missing_documents": [],
+    "data_quality_warnings": [],
+    "risk_flags": [
+      {
+        "type": "EXCEEDS_MAX_LOAN_AMOUNT",
+        "severity": "High",
+        "message": "Loan amount of ₱413,625 exceeds maximum of ₱300,000"
+      }
+    ],
+    "recommended_decision": "Reject",
+    "recommendation_reason": "Loan amount ₱413,625 exceeds maximum ₱300,000",
+    "recommended_conditions": [],
+    "created_at": "2026-03-17T07:12:36.870Z",
+    "reviewed_at": "2026-03-17T07:12:36.870Z",
+    "reviewed_by": "bb0e97b6-434e-4620-a002-790e8de8893c"
+  }
+]

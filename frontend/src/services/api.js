@@ -52,8 +52,10 @@ export const applicationsAPI = {
   update: (id, data) => api.put(`/applications/${id}`, data),
   delete: (id) => api.delete(`/applications/${id}`),
   submit: (id) => api.post(`/applications/${id}/submit`),
+  updateStatus: (id, status) => api.post(`/applications/${id}/status`, { status }),
   complete: (id) => api.post(`/applications/${id}/complete`),
   getStatistics: () => api.get('/applications/statistics'),
+  generateMemo: (id) => api.post(`/applications/${id}/memo/generate`),
 };
 
 // Documents API
