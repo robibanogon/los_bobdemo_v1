@@ -81,14 +81,24 @@ const ApplicationDetail = () => {
 
   const handleRunReview = async () => {
     try {
+      console.log('Starting agent review for application:', id);
+      console.log('agentReviewAPI:', agentReviewAPI);
+      console.log('agentReviewAPI.run:', agentReviewAPI.run);
+      
       setActionLoading(true);
-      await agentReviewAPI.run(id);
+      console.log('Calling agentReviewAPI.run...');
+      const response = await agentReviewAPI.run(id);
+      console.log('Agent review response:', response);
+      
       success('Agent review completed successfully');
       // Navigate to review page after successful review
       navigate(`/applications/${id}/review`);
     } catch (error) {
+      console.error('Error running review - Full error object:', error);
+      console.error('Error message:', error.message);
+      console.error('Error response:', error.response);
+      console.error('Error stack:', error.stack);
       showError(error.response?.data?.error || 'Failed to run agent review');
-      console.error('Error running review:', error);
       setActionLoading(false);
     }
   };
