@@ -13,6 +13,7 @@ const CreditAnalysis = () => {
 
   useEffect(() => {
     loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [id]);
 
   const loadData = async () => {
@@ -27,6 +28,9 @@ const CreditAnalysis = () => {
     } catch (err) {
       showError('Failed to load credit analysis');
       console.error(err);
+      // Set application and analysis to null on error to trigger the not found UI
+      setApplication(null);
+      setAnalysis(null);
     } finally {
       setLoading(false);
     }
