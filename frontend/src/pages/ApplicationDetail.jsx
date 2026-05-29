@@ -348,7 +348,16 @@ const ApplicationDetail = () => {
           <>
             <button
               className="btn btn-primary"
-              onClick={handleRunReview}
+              onClick={() => {
+                console.log('Button clicked!');
+                console.log('handleRunReview function:', handleRunReview);
+                try {
+                  handleRunReview();
+                } catch (err) {
+                  console.error('Synchronous error calling handleRunReview:', err);
+                  console.error('Error details:', err.message, err.stack);
+                }
+              }}
               disabled={actionLoading}
             >
               {actionLoading ? 'Running...' : 'Run Agent Review'}
