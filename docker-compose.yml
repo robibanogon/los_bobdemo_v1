@@ -1,0 +1,112 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  postgres:
+    image: postgres:15-alpine
+    container_name: los_postgres
+    environment:
+      POSTGRES_DB: los_db
+      POSTGRES_USER: los_user
+      POSTGRES_PASSWORD: los_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./backend/migrations/001_initial_schema.sql:/docker-entrypoint-initdb.d/001_initial_schema.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U los_user -d los_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    networks:
+      - los_network
+
+  # Backend API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: los_backend
+    environment:
+      NODE_ENV: development
+      PORT: 3001
+      DB_HOST: postgres
+      DB_PORT: 5432
+      DB_NAME: los_db
+      DB_USER: los_user
+      DB_PASSWORD: los_password
+      JWT_SECRET: dev-jwt-secret-change-in-production
+      AWS_REGION: us-east-1
+      # For local development, use localstack or minio for S3
+      USE_LOCAL_STORAGE: "true"
+    ports:
+      - "3001:3001"
+    volumes:
+      - ./backend:/app
+      - /app/node_modules
+      - backend_uploads:/app/data/uploads
+    depends_on:
+      postgres:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3001/health', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    networks:
+      - los_network
+    command: npm run dev
+
+  # Frontend (for local testing)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile.dev
+    container_name: los_frontend
+    environment:
+      VITE_API_URL: http://localhost:3001
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - los_network
+    command: npm run dev
+
+  # pgAdmin (optional - for database management)
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: los_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@los.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+      PGADMIN_CONFIG_SERVER_MODE: 'False'
+    ports:
+      - "5050:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      - postgres
+    networks:
+      - los_network
+    profiles:
+      - tools
+
+volumes:
+  postgres_data:
+    driver: local
+  backend_uploads:
+    driver: local
+  pgadmin_data:
+    driver: local
+
+networks:
+  los_network:
+    driver: bridge
+
+# Made with Bob

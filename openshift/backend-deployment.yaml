@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: los-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: los-backend
+  template:
+    metadata:
+      labels:
+        app: los-backend
+    spec:
+      containers:
+        - name: backend
+          image: image-registry.example.com/los-demo/los-backend:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 3001
+              name: http
+          envFrom:
+            - configMapRef:
+                name: los-backend-config
+            - secretRef:
+                name: los-backend-secret
+          volumeMounts:
+            - name: uploads
+              mountPath: /app/data/uploads
+          readinessProbe:
+            httpGet:
+              path: /health
+              port: 3001
+            initialDelaySeconds: 10
+            periodSeconds: 10
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 3001
+            initialDelaySeconds: 30
+            periodSeconds: 20
+          resources:
+            requests:
+              cpu: 100m
+              memory: 256Mi
+            limits:
+              cpu: 500m
+              memory: 512Mi
+      volumes:
+        - name: uploads
+          persistentVolumeClaim:
+            claimName: los-backend-uploads
+
+# Made with Bob

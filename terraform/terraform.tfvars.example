@@ -1,0 +1,132 @@
+aws_region   = "us-east-1"
+environment  = "dev"
+project_name = "los"
+
+availability_zones = [
+  "us-east-1a",
+  "us-east-1b"
+]
+
+vpc_cidr = "10.0.0.0/16"
+
+public_subnet_cidrs = [
+  "10.0.1.0/24",
+  "10.0.2.0/24"
+]
+
+private_subnet_cidrs = [
+  "10.0.11.0/24",
+  "10.0.12.0/24"
+]
+
+database_subnet_cidrs = [
+  "10.0.21.0/24",
+  "10.0.22.0/24"
+]
+
+domain_name          = "los.example.com"
+frontend_domain_name = "www.los.example.com"
+api_domain_name      = "api.los.example.com"
+route53_zone_id      = "Z1234567890ABCDE"
+acm_certificate_arn  = "arn:aws:acm:us-east-1:123456789012:certificate/11111111-2222-3333-4444-555555555555"
+
+backend_container_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/los-backend:latest"
+backend_container_port  = 3001
+
+ecs_task_cpu                  = 512
+ecs_task_memory               = 1024
+ecs_desired_count             = 2
+ecs_min_capacity              = 2
+ecs_max_capacity              = 10
+ecs_cpu_target_utilization    = 70
+ecs_memory_target_utilization = 80
+
+ecs_environment_variables = [
+  {
+    name  = "NODE_ENV"
+    value = "production"
+  },
+  {
+    name  = "PORT"
+    value = "3001"
+  },
+  {
+    name  = "AWS_REGION"
+    value = "us-east-1"
+  }
+]
+
+ecs_secrets = [
+  {
+    name      = "DB_HOST"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/database:DB_HOST::"
+  },
+  {
+    name      = "DB_NAME"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/database:DB_NAME::"
+  },
+  {
+    name      = "DB_USER"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/database:DB_USER::"
+  },
+  {
+    name      = "DB_PASSWORD"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/database:DB_PASSWORD::"
+  },
+  {
+    name      = "JWT_SECRET"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/jwt:JWT_SECRET::"
+  }
+]
+
+db_name                   = "los_dev"
+db_username               = "los_admin"
+db_password               = "replace-with-secure-generated-password"
+db_instance_class         = "db.t3.micro"
+db_allocated_storage      = 20
+db_max_allocated_storage  = 100
+db_storage_type           = "gp3"
+db_multi_az               = true
+db_backup_retention_period = 7
+db_backup_window          = "03:00-04:00"
+db_maintenance_window     = "Sun:04:00-Sun:05:00"
+db_deletion_protection    = false
+db_skip_final_snapshot    = true
+
+cors_allowed_origins = [
+  "https://los.example.com",
+  "https://www.los.example.com"
+]
+
+logs_retention_days     = 90
+backups_expiration_days = 365
+noncurrent_version_days = 30
+
+cloudfront_price_class = "PriceClass_100"
+cloudfront_web_acl_id  = null
+
+secrets_manager_arns = [
+  "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/database",
+  "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/dev/jwt"
+]
+
+kms_key_arns = [
+  "arn:aws:kms:us-east-1:123456789012:key/11111111-2222-3333-4444-555555555555"
+]
+
+alert_email_endpoints = [
+  "platform-alerts@example.com",
+  "security-alerts@example.com"
+]
+
+alarm_ecs_cpu_threshold          = 80
+alarm_ecs_memory_threshold       = 85
+alarm_alb_5xx_threshold          = 10
+alarm_unhealthy_hosts_threshold  = 1
+alarm_rds_connections_threshold  = 80
+alarm_rds_free_storage_threshold = 10737418240
+
+additional_tags = {
+  CostCenter = "technology"
+  Owner      = "platform-team"
+}

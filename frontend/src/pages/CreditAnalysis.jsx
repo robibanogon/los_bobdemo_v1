@@ -168,14 +168,14 @@ const CreditAnalysis = () => {
           <div style={{ fontSize: '14px', color: '#64748b', marginBottom: '10px', textTransform: 'uppercase', fontWeight: '600' }}>
             Collateral Coverage
           </div>
-          <div style={{ fontSize: '36px', fontWeight: 'bold', color: analysis.collateral_coverage >= 1.2 ? '#10b981' : '#ef4444', marginBottom: '10px' }}>
-            {formatPercentage(analysis.collateral_coverage || 0)}
+          <div style={{ fontSize: '36px', fontWeight: 'bold', color: analysis.collateral_coverage >= 120 ? '#10b981' : '#ef4444', marginBottom: '10px' }}>
+            {analysis.collateral_coverage ? `${analysis.collateral_coverage.toFixed(0)}%` : 'N/A'}
           </div>
           <div style={{ fontSize: '12px', color: '#64748b' }}>
             Collateral Value / Loan Amount
           </div>
           <div style={{ fontSize: '12px', color: '#64748b', marginTop: '5px' }}>
-            {analysis.collateral_coverage >= 1.2 ? '✓ Meets minimum (120%)' : '✗ Below minimum (120%)'}
+            {analysis.collateral_coverage >= 120 ? '✓ Meets minimum (120%)' : '✗ Below minimum (120%)'}
           </div>
         </div>
       </div>

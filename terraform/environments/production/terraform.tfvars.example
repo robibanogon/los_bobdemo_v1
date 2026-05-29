@@ -1,0 +1,43 @@
+backend_container_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/los-backend:prod"
+db_password             = "replace-with-secure-production-password"
+
+route53_zone_id      = "Z1234567890ABCDE"
+acm_certificate_arn  = "arn:aws:acm:us-east-1:123456789012:certificate/11111111-2222-3333-4444-555555555555"
+
+ecs_secrets = [
+  {
+    name      = "DB_HOST"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/database:DB_HOST::"
+  },
+  {
+    name      = "DB_NAME"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/database:DB_NAME::"
+  },
+  {
+    name      = "DB_USER"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/database:DB_USER::"
+  },
+  {
+    name      = "DB_PASSWORD"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/database:DB_PASSWORD::"
+  },
+  {
+    name      = "JWT_SECRET"
+    valueFrom = "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/jwt:JWT_SECRET::"
+  }
+]
+
+secrets_manager_arns = [
+  "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/database",
+  "arn:aws:secretsmanager:us-east-1:123456789012:secret:los/production/jwt"
+]
+
+alert_email_endpoints = [
+  "platform-alerts@example.com",
+  "security-alerts@example.com"
+]
+
+additional_tags = {
+  Owner      = "platform-team"
+  Compliance = "banking"
+}
