@@ -10,11 +10,11 @@
 The LOS application has been successfully deployed to OpenShift and comprehensive testing has been performed. The deployment is **functional** with most core features working correctly. Some issues were identified that require attention.
 
 ### Overall Test Results
-- **Total Test Cases:** 50
-- **Passed:** 32 (64%)
-- **Failed:** 3 (6%)
+- **Total Test Cases:** 51 (added TC-038A for View Agent Review)
+- **Passed:** 33 (65%)
+- **Failed:** 4 (8%)
 - **Partial Pass:** 2 (4%)
-- **Pending:** 13 (26%)
+- **Pending:** 12 (24%)
 
 ## Deployment Information
 
