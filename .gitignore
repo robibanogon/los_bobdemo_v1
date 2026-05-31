@@ -10,6 +10,9 @@ yarn.lock
 .env.test.local
 .env.production.local
 
+# Bob configuration with secrets
+.bob/mcp.json
+
 # Data files (optional - uncomment if you don't want to commit data)
 # backend/data/*.json
 # backend/data/uploads/*
