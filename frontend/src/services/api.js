@@ -74,6 +74,7 @@ export const documentsAPI = {
 // Agent Review API
 export const agentReviewAPI = {
   run: (applicationId) => api.post(`/applications/${applicationId}/agent-review`),
+  getReview: (applicationId) => api.get(`/applications/${applicationId}/agent-review`),
 };
 
 // Analysis API

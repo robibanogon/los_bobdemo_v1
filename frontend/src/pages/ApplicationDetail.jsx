@@ -81,24 +81,14 @@ const ApplicationDetail = () => {
 
   const handleRunReview = async () => {
     try {
-      console.log('Starting agent review for application:', id);
-      console.log('agentReviewAPI:', agentReviewAPI);
-      console.log('agentReviewAPI.run:', agentReviewAPI.run);
-      
       setActionLoading(true);
-      console.log('Calling agentReviewAPI.run...');
       const response = await agentReviewAPI.run(id);
-      console.log('Agent review response:', response);
-      
       success('Agent review completed successfully');
-      // Navigate to review page after successful review
       navigate(`/applications/${id}/review`);
     } catch (error) {
-      console.error('Error running review - Full error object:', error);
-      console.error('Error message:', error.message);
-      console.error('Error response:', error.response);
-      console.error('Error stack:', error.stack);
       showError(error.response?.data?.error || 'Failed to run agent review');
+      setActionLoading(false);
+    } finally {
       setActionLoading(false);
     }
   };
@@ -348,16 +338,7 @@ const ApplicationDetail = () => {
           <>
             <button
               className="btn btn-primary"
-              onClick={() => {
-                console.log('Button clicked!');
-                console.log('handleRunReview function:', handleRunReview);
-                try {
-                  handleRunReview();
-                } catch (err) {
-                  console.error('Synchronous error calling handleRunReview:', err);
-                  console.error('Error details:', err.message, err.stack);
-                }
-              }}
+              onClick={handleRunReview}
               disabled={actionLoading}
             >
               {actionLoading ? 'Running...' : 'Run Agent Review'}
